@@ -19,7 +19,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Imperial Navy" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="1" />
 		<property name="Number" value="0242" />
 		<property name="Instructions" value="" />
@@ -39,7 +39,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="4" />
 		<property name="Number" value="0234" />
 		<property name="Instructions" value="" />
@@ -59,7 +59,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="5" />
 		<property name="Number" value="0240" />
 		<property name="Instructions" value="" />
@@ -79,7 +79,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="4" />
 		<property name="Number" value="0239" />
 		<property name="Instructions" value="" />
@@ -99,7 +99,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="6" />
 		<property name="Number" value="0236" />
 		<property name="Instructions" value="" />
@@ -119,7 +119,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Scum and Villainy" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="6" />
 		<property name="Number" value="0251" />
 		<property name="Instructions" value="" />
@@ -139,7 +139,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Scum and Villainy" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="5" />
 		<property name="Number" value="0250" />
 		<property name="Instructions" value="" />
@@ -159,7 +159,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Imperial Navy" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="2" />
 		<property name="Number" value="0243" />
 		<property name="Instructions" value="" />
@@ -179,7 +179,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="6" />
 		<property name="Number" value="0241" />
 		<property name="Instructions" value="" />
@@ -199,7 +199,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="2" />
 		<property name="Number" value="0229" />
 		<property name="Instructions" value="" />
@@ -219,7 +219,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="3" />
 		<property name="Number" value="0229" />
 		<property name="Instructions" value="" />
@@ -239,7 +239,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="6" />
 		<property name="Number" value="0065" />
 		<property name="Instructions" value="" />
@@ -259,7 +259,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Imperial Navy" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="6" />
 		<property name="Number" value="0246" />
 		<property name="Instructions" value="onPlay[Give 1 Unit Damage Icon on Target Unit|-|Give 1 Blast Damage on Target Icon Unit]" />
@@ -279,7 +279,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="5" />
 		<property name="Number" value="0235" />
 		<property name="Instructions" value="" />
@@ -299,7 +299,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Imperial Navy" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="3" />
 		<property name="Number" value="0244" />
 		<property name="Instructions" value="" />
@@ -319,7 +319,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Imperial Navy" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="4" />
 		<property name="Number" value="0244" />
 		<property name="Instructions" value="" />
@@ -339,7 +339,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Smugglers and Spies" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="1" />
 		<property name="Number" value="0232" />
 		<property name="Instructions" value="" />
@@ -359,7 +359,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="2" />
 		<property name="Number" value="0238" />
 		<property name="Instructions" value="" />
@@ -379,7 +379,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="3" />
 		<property name="Number" value="0238" />
 		<property name="Instructions" value="" />
@@ -399,7 +399,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Smugglers and Spies" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="2" />
 		<property name="Number" value="0233" />
 		<property name="Instructions" value="" />
@@ -419,7 +419,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Smugglers and Spies" />
-		<property name="Block" value="49" />
+		<property name="Block" value="049" />
 		<property name="Block Number" value="3" />
 		<property name="Number" value="0233" />
 		<property name="Instructions" value="" />
@@ -439,7 +439,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Jedi" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="1" />
 		<property name="Number" value="0228" />
 		<property name="Instructions" value="" />
@@ -459,7 +459,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
-		<property name="Block" value="50" />
+		<property name="Block" value="050" />
 		<property name="Block Number" value="1" />
 		<property name="Number" value="0237" />
 		<property name="Instructions" value="" />
@@ -479,7 +479,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Jedi" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="4" />
 		<property name="Number" value="0230" />
 		<property name="Instructions" value="" />
@@ -499,7 +499,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Scum and Villainy" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="1" />
 		<property name="Number" value="0247" />
 		<property name="Instructions" value="" />
@@ -519,7 +519,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="51" />
+		<property name="Block" value="051" />
 		<property name="Block Number" value="5" />
 		<property name="Number" value="0245" />
 		<property name="Instructions" value="" />
@@ -539,7 +539,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Scum and Villainy" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="2" />
 		<property name="Number" value="0248" />
 		<property name="Instructions" value="" />
@@ -559,7 +559,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Jedi" />
-		<property name="Block" value="48" />
+		<property name="Block" value="048" />
 		<property name="Block Number" value="5" />
 		<property name="Number" value="0231" />
 		<property name="Instructions" value="" />
@@ -579,7 +579,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="3" />
 		<property name="Number" value="0249" />
 		<property name="Instructions" value="" />
@@ -599,7 +599,7 @@
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Neutral" />
-		<property name="Block" value="52" />
+		<property name="Block" value="052" />
 		<property name="Block Number" value="4" />
 		<property name="Number" value="0249" />
 		<property name="Instructions" value="" />

@@ -243,7 +243,7 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             if iter == choice: Card(cardList[iter]).moveTo(opponentPL.piles['Command Deck'],0)
             else: Card(cardList[iter]).moveTo(opponentPL.piles['Command Deck'],1)
          notify(":> {} activates Takes Them Prisoner to capture one card from the top 3 cards of {}'s command deck".format(me,opponentPL))
-   elif card.name == 'Trench Run' and action == 'PLAY': # We move this card to the opponent's exile in order to try and give control to them automatically.
+   elif (card.name == 'Trench Run' or card.type == 'Mission') and action == 'PLAY': # We move this card to the opponent's exile in order to try and give control to them automatically.
       if me.hasInvertedTable(): card.moveToTable(0,0)
       else:  card.moveToTable(0,-cheight(card))
       card.setController(findOpponent())
@@ -424,6 +424,15 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
          if Card(hostCards[card._id]).controller != me:
             DrawX('Draw1Card', "{} provides a {} to a friendly unit to".format(me,card), card, targetCards = None, notification = 'Quick', n = 0)
       except: whisper(":::ERROR::: when looking for host of {}".format(card))
+   elif card.name == 'Shadows of the Empire' and action == 'PLAY':
+         objectives = findTarget('Targeted-atObjective-targetOpponents-noTargetingError')
+         if len(objectives) > 0:
+            objectiveController = objectives[0].controller
+            objectives[0].moveToBottom(objectiveController.piles['Objective Deck'])
+            currentObjectives = eval(objectiveController.getGlobalVariable('currentObjectives'))
+            currentObjectives.remove(objectives[0]._id)
+            objectiveController.setGlobalVariable('currentObjectives', str(currentObjectives))
+            notify("Shadows of the Empire sends {} to the bottom of its owner\'s objective deck".format(objectives[0].name))
    elif card.model == 'ff4fb461-8060-457a-9c16-000000000902': # Derek "Hobbie" Klivian B141/2
       if action == 'PLAY': # In this scenario, Hobbie is attaching to a vehicle the player had targeted before they played him.
          vehicle = findTarget('Targeted-atVehicle-targetAllied-noTargetingError')

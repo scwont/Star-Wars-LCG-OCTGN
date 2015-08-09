@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="New Alliances" 
+     id="277f492e-db64-4c9d-a458-2b4755e8f8e6"
+     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3" 
+     gameVersion="2.0.0.0" 
+     version="2.0.0.0">
+	<cards>
+	<!-- New Alliances : 190-195 : 1195-1230 -->
+		<!-- Jedi : 190 : 1195-1200 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001196" name="Luke's Speeder Bike">
+			<property name="Cost" value="3" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="2" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:1, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Vehicle-Speeder-Unique" />
+			<property name="Damage Capacity" value="3" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Edge(1).&#xD;&#xA;Reaction: After you lose an edge battle, remove this unit from the engagement." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Jedi" />
+			<property name="Block" value="190" />
+			<property name="Block Number" value="2" />
+			<property name="Number" value="" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>				
+		<!-- Smugglers and Spies : 191 : 1201-1206 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001204" name="Stolen AT-ST">
+			<property name="Cost" value="3" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="0" />
+			<property name="Combat Icons" value="UD:1, BD:1, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Vehicle-Walker" />
+			<property name="Damage Capacity" value="3" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="While this unit is ready, it cannot be affected by enemy combat icons." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Smugglers and Spies" />
+			<property name="Block" value="191" />
+			<property name="Block Number" value="4" />
+			<property name="Number" value="936" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>		
+		<!-- Courage of the Tribe : 192 : 1207-1212 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001207" name="Courage of the Tribe" size="ObjectiveSize">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Objective" />
+			<property name="Force" value="0" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Endor" />
+			<property name="Damage Capacity" value="5" />
+			<property name="Resources" value="1" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Limit 1 per objective deck.&#xD;&#xA;Reaction: After you refresh, remove 1 focus token from a target Ewok unit." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="1" />
+			<property name="Number" value="938" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001208" name="Chief Chirpa">
+			<property name="Cost" value="4" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="2" />
+			<property name="Combat Icons" value="UD:1, BD:1, T:0, EE-UD:0, EE-BD:0, EE-T:1" />
+			<property name="Traits" value="Character-Ewok-Unique" />
+			<property name="Damage Capacity" value="3" />
+			<property name="Resources" value="1" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Each other friendly Ewok unit gains +1 damage capacity.&#xD;&#xA;Reaction: After a phase begins, focus an Ewok unit to draw 1 card." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="2" />
+			<property name="Number" value="939" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001209" name="Ewok Horde">
+			<property name="Cost" value="7" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:2, BD:1, T:0, EE-UD:1, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character-Ewok" />
+			<property name="Damage Capacity" value="4" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Reduce the cost of this unit by 1 (to a minimum of 3) for each Ewok unit you control." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="3" />
+			<property name="Number" value="940" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001210" name="Ewok Horde">
+			<property name="Cost" value="7" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:2, BD:1, T:0, EE-UD:1, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character-Ewok" />
+			<property name="Damage Capacity" value="4" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Reduce the cost of this unit by 1 (to a minimum of 3) for each Ewok unit you control." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="4" />
+			<property name="Number" value="940" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001211" name="Bright Tree Village">
+			<property name="Cost" value="2" />
+			<property name="Type" value="Enhancement" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Location-Endor-Unique" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="1" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Enhance your play area.&#xD;&#xA;Each Ewok unit you control or in your edge stack gains +1 Force icon." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="941" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001212" name="Battle of Endor">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Fate" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="9" />
+			<property name="Text" value="For this edge battle, this card gains +1 Force icon (to a maximum of 3) for each Endor objective or enhancement in play." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="192" />
+			<property name="Block Number" value="6" />
+			<property name="Number" value="942" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<!-- Sith : 193 : 1213-1218 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001216" name="Sith Lightsaber">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Enhancement" />
+			<property name="Force" value="2" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Sith" />
+			<property name="Block" value="193" />
+			<property name="Block Number" value="4" />
+			<property name="Number" value="" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<!-- Imperial Navy : 194 : 1219-1224 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001223" name="?">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Event" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Imperial Navy" />
+			<property name="Block" value="194" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<!-- Scum and Villainy : 195 : 1225-1230 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001229" name="?">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Event" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Scum and Villainy" />
+			<property name="Block" value="195" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="957" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+	</cards>
+</set>

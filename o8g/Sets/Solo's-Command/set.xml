@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Solo's Command" 
+     id="ed265932-6e3b-4ad7-b83e-5714b42170af"
+     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3" 
+     gameVersion="2.0.0.0" 
+     version="2.0.0.0">
+	<cards>
+	<!-- Solo's Command : 185-189 : 1165-1194 -->
+		<!-- Shield Generator Assault : 185 : 1165-1170 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001165" name="Shield Generator Assault" size="ObjectiveSize">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Objective" />
+			<property name="Force" value="0" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Endor" />
+			<property name="Damage Capacity" value="5" />
+			<property name="Resources" value="1" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Reaction: After your turn begins, move 1 damage from an Endor objective to another target Endor objective." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Rebel Alliance" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="1" />
+			<property name="Number" value="906" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001166" name="Han Solo">
+			<property name="Cost" value="4" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="3" />
+			<property name="Combat Icons" value="UD:2, BD:0, T:1, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character-Leader-Unique" />
+			<property name="Damage Capacity" value="3" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Elite.&#xD;&#xA;Reaction: After this unit is focused to strike as an attacker, choose an enemy objective you are not engaged with. You are now engaged with the chosen objective instead." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Rebel Alliance" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="2" />
+			<property name="Number" value="907" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001167" name="SpecForces Pathfinder">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character-Trooper" />
+			<property name="Damage Capacity" value="1" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Action: Damage an Endor objective to remove 1 focus token from this unit or from Han Solo. (Limit once per turn.)" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Rebel Alliance" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="3" />
+			<property name="Number" value="908" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001168" name="SpecForces Pathfinder">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character-Trooper" />
+			<property name="Damage Capacity" value="1" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Action: Damage an Endor objective to remove 1 focus token from this unit or from Han Solo. (Limit once per turn.)" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Rebel Alliance" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="4" />
+			<property name="Number" value="908" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001169" name="Secret Objective">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Fate" />
+			<property name="Force" value="3" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="7" />
+			<property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="909" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001170" name="Ground Support" size="ObjectiveSize">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Mission" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Endor" />
+			<property name="Damage Capacity" value="5" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Reaction: After this mission is completed, deal 1 damage to each enemy unit and objective." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Rebel Alliance" />
+			<property name="Block" value="185" />
+			<property name="Block Number" value="6" />
+			<property name="Number" value="910" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<!-- LS : 186 : 1171-1176 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001173" name="Ewok Warrior">
+			<property name="Cost" value="2" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:1, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="Character-Ewok" />
+			<property name="Damage Capacity" value="2" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Light" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="186" />
+			<property name="Block Number" value="3" />
+			<property name="Number" value="" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>		
+		<!-- Imperial Navy? : 187 : 1177-1182 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001181" name="Secret Objective">
+			<property name="Cost" value="0" />
+			<property name="Type" value="Fate" />
+			<property name="Force" value="3" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="7" />
+			<property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="187" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="919" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>		
+		<!-- Scum and Villainy : 188 : 1183-1188 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001187" name="Illegal Modifications">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Enhancement" />
+			<property name="Force" value="2" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Scum and Villainy" />
+			<property name="Block" value="188" />
+			<property name="Block Number" value="5" />
+			<property name="Number" value="924" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>		
+		<!-- DS neutral : 189 : 1189-1194 -->
+		<card id="ff4fb461-8060-457a-9c17-000000001191" name="Contract Hunter">
+			<property name="Cost" value="2" />
+			<property name="Type" value="Unit" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:1, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Traits" value="Character" />
+			<property name="Damage Capacity" value="" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="" />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="189" />
+			<property name="Block Number" value="3" />
+			<property name="Number" value="" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>
+		<card id="ff4fb461-8060-457a-9c17-000000001194" name="Assassination Contract" size="ObjectiveSize">
+			<property name="Cost" value="1" />
+			<property name="Type" value="Mission" />
+			<property name="Force" value="1" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
+			<property name="Traits" value="" />
+			<property name="Damage Capacity" value="5" />
+			<property name="Resources" value="0" />
+			<property name="Edge Priority" value="" />
+			<property name="Text" value="Reaction: After this mission is completed, destroy each out-of-faction enemy unit." />
+			<property name="Flavor" value="" />
+			<property name="Side" value="Dark" />
+			<property name="Affiliation" value="Neutral" />
+			<property name="Block" value="189" />
+			<property name="Block Number" value="6" />
+			<property name="Number" value="928" />
+			<property name="Instructions" value="" />
+			<property name="AutoScript" value="" />
+			<property name="AutoAction" value="" />
+		</card>		
+	</cards>
+</set>

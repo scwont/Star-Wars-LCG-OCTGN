@@ -329,7 +329,7 @@
 <card id="ff4fb461-8060-457a-9c16-000000001181" name="Secret Objective">
   <property name="Cost" value="0" />
   <property name="Type" value="Fate" />
-  <property name="Force" value="0" />
+  <property name="Force" value="3" />
   <property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
   <property name="Traits" value="" />
   <property name="Damage Capacity" value="0" />
@@ -569,7 +569,7 @@
 <card id="ff4fb461-8060-457a-9c16-000000001193" name="Secret Objective">
   <property name="Cost" value="0" />
   <property name="Type" value="Fate" />
-  <property name="Force" value="0" />
+  <property name="Force" value="3" />
   <property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
   <property name="Traits" value="" />
   <property name="Damage Capacity" value="0" />

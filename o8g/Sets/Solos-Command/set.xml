@@ -15,7 +15,7 @@
   <property name="Damage Capacity" value="5" />
   <property name="Resources" value="1" />
   <property name="Edge Priority" value="" />
-  <property name="Text" value="After your turn begins, move 1 damage from an Endor objective to another target Endor objective." />
+  <property name="Text" value="Reaction: After your turn begins, move 1 damage from an Endor objective to another target Endor objective." />
   <property name="Flavor" value="" />
   <property name="Side" value="Light" />
   <property name="Affiliation" value="Rebel Alliance" />
@@ -91,9 +91,9 @@
   <property name="Type" value="Fate" />
   <property name="Force" value="3" />
   <property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-  <property name="Traits" value="Location" />
+  <property name="Traits" value="" />
   <property name="Damage Capacity" value="0" />
-  <property name="Resources" value="1" />
+  <property name="Resources" value="0" />
   <property name="Edge Priority" value="7" />
   <property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
   <property name="Flavor" value="" />
@@ -114,7 +114,7 @@
   <property name="Traits" value="Endor" />
   <property name="Damage Capacity" value="5" />
   <property name="Resources" value="0" />
-  <property name="Edge Priority" value="7" />
+  <property name="Edge Priority" value="" />
   <property name="Text" value="Reaction: After this mission is completed, deal 1 damage to each enemy unit and objective." />
   <property name="Flavor" value="" />
   <property name="Side" value="Light" />
@@ -135,7 +135,7 @@
   <property name="Damage Capacity" value="5" />
   <property name="Resources" value="1" />
   <property name="Edge Priority" value="" />
-  <property name="Text" value="Each Ewok unit you control gains [Edge-Enabled Blast Damage]" />
+  <property name="Text" value="Each Ewok unit you control gains [Edge-Enabled Blast Damage]." />
   <property name="Flavor" value="" />
   <property name="Side" value="Light" />
   <property name="Affiliation" value="Neutral" />
@@ -211,9 +211,9 @@
   <property name="Type" value="Fate" />
   <property name="Force" value="3" />
   <property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-  <property name="Traits" value="Location" />
+  <property name="Traits" value="" />
   <property name="Damage Capacity" value="0" />
-  <property name="Resources" value="1" />
+  <property name="Resources" value="0" />
   <property name="Edge Priority" value="7" />
   <property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
   <property name="Flavor" value="" />
@@ -395,7 +395,7 @@
   <property name="Damage Capacity" value="3" />
   <property name="Resources" value="0" />
   <property name="Edge Priority" value="" />
-  <property name="Text" value="Targeted Strike.&#xD;&#xA;Each other Droid unit you control gains [Unit Damage].&#xD;&#xA;Reaction: After this unit uses targeted strike to damage a unit, that unit is now participating in this engagement on its controller’s side." />
+  <property name="Text" value="Targeted Strike.&#xD;&#xA;Each other Droid unit you control gains [Unit Damage].&#xD;&#xA;Reaction: After this unit uses targeted strike to damage a unit, that unit is now participating in this engagement on its controller&#39;s side." />
   <property name="Flavor" value="" />
   <property name="Side" value="Dark" />
   <property name="Affiliation" value="Scum and Villainy" />

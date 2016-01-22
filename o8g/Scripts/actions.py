@@ -314,7 +314,7 @@ def engageTarget(group = table, x = 0, y = 0,targetObjective = None,silent = Fal
    if getGlobalVariable('Engaged Objective') != 'None': finishEngagement() 
    debugNotify("About to find targeted objectives.") #Debug
    if not targetObjective:
-      cardList = [c for c in table if (c.Type == 'Objective' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.targetedBy and c.targetedBy == me and c.controller in fetchAllOpponents()]
+      cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.targetedBy and c.targetedBy == me and c.controller in fetchAllOpponents()]
       debugNotify("About to count found objectives list. List is {}".format(cardList)) #Debug
       if len(cardList) == 0: 
          whisper("You need to target an opposing Objective to start an Engagement")
@@ -819,7 +819,13 @@ def purchaseCard(card, x=0, y=0, manual = True):
       if checkPaid == 'OK': notify("{} has paid for {}".format(me,card)) 
       else: notify(":::ATTENTION::: {} has played {} by skipping its full cost".format(me,card))
       playEventSound(card)
-      executePlayScripts(card, 'PLAY') 
+      executePlayScripts(card, 'PLAY')
+      if card.Type == 'Mission':
+         if me.hasInvertedTable(): card.moveToTable(0,0)
+         else: card.moveToTable(0,-cheight(card))
+         card.setController(findOpponent())
+         debugNotify("About to whisper") # Debug
+         whisper(":::IMPORTANT::: Please make sure that the controller for this card is always the opposing player")	  
       if card.Type != 'Event': autoscriptOtherPlayers('CardPlayed',card) # We script for playing events only after their events have finished resolving in the default action.
    debugNotify("<<< purchaseCard()") #Debug
 
@@ -921,14 +927,56 @@ def discard(card, x = 0, y = 0, silent = False, Continuing = False, initPlayer =
       playThwartSound()
       card.moveTo(opponentPL.piles['Victory Pile']) # Objectives are won by the opponent
       cardsLeaving(card,'remove')
-   elif card.Type == "Affiliation" or card.Type == "BotD": 
-      whisper("This isn't the card you're looking for...")
-      return 'ABORT'
    elif card.highlight == EdgeColor:
       card.moveTo(card.owner.piles['Discard Pile'])
    elif card.highlight == CapturedColor and not Continuing: # If we're continuing a script and the card is now captured, it means its own effect made it so, so we leave it where it is (e.g. Leia Organa)
       removeCapturedCard(card)
-      card.moveTo(card.owner.piles['Discard Pile'])   
+      card.moveTo(card.owner.piles['Discard Pile']) 
+   elif card.Type == "Mission":
+      if initPlayer == me: 
+         confirmTXT = 'your opponent'
+         opponentList = fetchAllOpponents()
+         if len(opponentList) > 1:
+            choice = SingleChoice("Choose which opponent thwarted this objective.", [pl.name for pl in opponentList])
+            if choice == None: return 'ABORT'
+            opponentPL = opponentList[choice]
+         else: opponentPL = opponentList[0]
+         silent = True # We silence so that the game doesn't put out a second dialogue
+      else: 
+         confirmTXT = initPlayer.name
+         opponentPL = initPlayer         
+      if not Continuing and not silent and not confirm("Did {} thwart {}?".format(confirmTXT,card.name)): return 'ABORT'
+      if not Continuing and not cardsLeaving(card):
+         execution = executePlayScripts(card, 'THWART')
+         if execution == 'POSTPONED': 
+            return 'POSTPONED'# If the unit has a Ready Effect it means we're pausing our discard to allow the player to decide to use the react or not. 
+      debugNotify("About to score objective")
+      #currentObjectives = eval(me.getGlobalVariable('currentObjectives'))
+      #currentObjectives.remove(card._id)
+      rescuedCount = rescueFromObjective(card)
+      if rescuedCount >= 1: extraTXT = ", rescuing {} of their captured cards".format(rescuedCount)
+      else: extraTXT = ''
+      #me.setGlobalVariable('currentObjectives', str(currentObjectives))      
+      if Side == 'Light': 
+         opponentPL.counters['Objectives Destroyed'].value += 1         
+         modifyDial(opponentPL.counters['Objectives Destroyed'].value)
+         notify("{} thwarts {}. The Death Star Dial advances by {}".format(opponentPL,card,opponentPL.counters['Objectives Destroyed'].value))
+      else: 
+         for player in fetchAllOpponents(): # Light side players share destroyed objectives number
+            player.counters['Objectives Destroyed'].value += 1         
+         notify("{} thwarts {}{}.".format(opponentPL,card,extraTXT))
+         if len(myAllies) == 2: objRequired = 5
+         else: objRequired = 3
+         if opponentPL.counters['Objectives Destroyed'].value >= objRequired: 
+            notify("===::: The Light Side wins the Game! :::====")
+            reportGame('ObjectiveDefeat')
+      autoscriptOtherPlayers('ObjectiveThwarted',card, origin_player = opponentPL)
+      playThwartSound()
+      card.moveTo(opponentPL.piles['Victory Pile']) # Objectives are won by the opponent
+      cardsLeaving(card,'remove')
+   elif card.Type == "Affiliation" or card.Type == "BotD": 
+      whisper("This isn't the card you're looking for...")
+      return 'ABORT'
    else:
       if previousHighlight != FateColor and previousHighlight != EdgeColor and previousHighlight != UnpaidColor and previousHighlight != CapturedColor:
          if not Continuing and not cardsLeaving(card):
@@ -1165,7 +1213,7 @@ def play(card):
       else:
          handDiscard(card)
          return # If the player double clicked on an objective, we assume they were selecting one of their three objectives to to put at the bot. of their deck.
-   if card.Type == 'Enhancement' or card.Type == 'Unit':
+   if card.Type == 'Enhancement' or card.Type == 'Unit' or card.Type == 'Mission':
       phaseRegex = re.search(r'(Dark|Light):([0-6])',getGlobalVariable('Phase'))
       phase = num(phaseRegex.group(2))
       if (phaseRegex.group(1) != Side and phase != 5) or (phase != 4 and phase != 5) or (phase == 5 and not re.search(r'DeployAllowance:Conflict',CardsAS.get(card.model,''))):

@@ -8948,6 +8948,244 @@ onPlay:Retrieve1Card-grabBounty Hunter_or_Mercenary-isReact$$ShuffleDeck
 +++++
 
 .....
+Shield Generator Assault
+-----
+ff4fb461-8060-457a-9c16-000000001165
+-----
+atTurnStart:Remove1Damage-Targeted-atObjective_and_Endor-duringMyTurn-isReact-isCost$$Put1Damage-Targeted-atObjective_and_Endor
++++++
+
+.....
+Han Solo
+-----
+ff4fb461-8060-457a-9c16-000000001166
+-----
+
++++++
+
+.....
+SpecForce Pathfinder
+-----
+ff4fb461-8060-457a-9c16-000000001167
+-----
++++++
+
+.....
+SpecForce Pathfinder
+-----
+ff4fb461-8060-457a-9c16-000000001168
+-----
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001169
+-----
+
++++++
+
+.....
+Ground Support
+-----
+ff4fb461-8060-457a-9c16-000000001170
+-----
+
++++++
+
+.....
+Warriors of the Forest
+-----
+ff4fb461-8060-457a-9c16-000000001171
+-----
+whileInPlay:IncreaseEE-BD:1-forMe-typeEwok-isAttacking
++++++
+
+.....
+Wicket W. Warrick
+-----
+ff4fb461-8060-457a-9c16-000000001172
+-----
+onAttack:Put1Focus-DemiAutoTargeted-atUnit-hasProperty{Cost}le3-targetOpponents-choose1-isReact
++++++
+
+.....
+Ewok Warrior
+-----
+ff4fb461-8060-457a-9c16-000000001173
+-----
+
++++++
+
+.....
+Part of the Tribe
+-----
+ff4fb461-8060-457a-9c16-000000001174
+-----
+Placement:Character_or_Droid||ConstantEffect:Trait{Ewok}1Bonus-onHost
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001175
+-----
+
++++++
+
+.....
+Repel the Invaders
+-----
+ff4fb461-8060-457a-9c16-000000001176
+-----
+
++++++
+
+.....
+The Emperor's Legion
+-----
+ff4fb461-8060-457a-9c16-000000001177
+-----
+
++++++
+
+.....
+Lieutenant Renz
+-----
+ff4fb461-8060-457a-9c16-000000001178
+-----
+
++++++
+
+.....
+Scout Trooper
+-----
+ff4fb461-8060-457a-9c16-000000001179
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Scout Trooper
+-----
+ff4fb461-8060-457a-9c16-000000001180
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001181
+-----
+
++++++
+
+.....
+Prepared Ambush
+-----
+ff4fb461-8060-457a-9c16-000000001182
+-----
+
++++++
+
+.....
+The Droid Revolution
+-----
+ff4fb461-8060-457a-9c16-000000001183
+-----
+
++++++
+
+.....
+IG-88B
+-----
+ff4fb461-8060-457a-9c16-000000001184
+-----
+whileInPlay:IncreaseUD:1-forMe-typeDroid||onStrike:EngageTarget-Targeted-atUnit-targetOpponents-isNotParticipating-ifOrigAttacking-isReact
++++++
+
+.....
+Assassin Droid
+-----
+ff4fb461-8060-457a-9c16-000000001185
+-----
++++++
+R0:Remove1Focus
+
+.....
+K4 Security Droid
+-----
+ff4fb461-8060-457a-9c16-000000001186
+-----
+
++++++
+
+.....
+Illegal Modifications
+-----
+ff4fb461-8060-457a-9c16-000000001187
+-----
+Placement:Droid_and_Unit||onHostMarkerAddFocus:Deal1Damage-AutoTargeted-onHost-isReact$$Remove1Focus-AutoTargeted-onHost-onlyOnce
++++++
+
+.....
+Prized Possession
+-----
+ff4fb461-8060-457a-9c16-000000001188
+-----
+
++++++
+
+.....
+Mission Command
+-----
+ff4fb461-8060-457a-9c16-000000001189
+-----
+
++++++
+
+.....
+Contract Hunter
+-----
+ff4fb461-8060-457a-9c16-000000001190
+-----
+
++++++
+
+.....
+Contract Hunter
+-----
+ff4fb461-8060-457a-9c16-000000001191
+-----
+
++++++
+
+.....
+Filthy Accusations
+-----
+ff4fb461-8060-457a-9c16-000000001192
+-----
+onPlay:Put1Focus-Targeted-atUnit-targetOpponents
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001193
+-----
+
++++++
+
+.....
+Assassination Contract
+-----
+ff4fb461-8060-457a-9c16-000000001194
+-----
+
++++++
+
+.....
 ENDSCRIPTS
 =====
 '''

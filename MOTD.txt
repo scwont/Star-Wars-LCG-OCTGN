@@ -1,15 +1,28 @@
 =====Message of the Day======
 
-Jump to Lightspeed now available
+Solo's Command now available. Scripting for the set includes:
+-Missions, when deployed, automatically transfer control to the opposing player and go to their side of the table
+-Missions can be engaged, and when thwarted properly go to victory pile of correct player and increase dial
+-Missions can be discarded from hand without issues
+-Missions can be used in edge and go to discard correctly
 
-Set added by BolivarShagnasty; any cards that are reprints from previous sets or have functions identical/similar to previously scipted cards are scripted. Please report any issues to:
+Known issues:
+-Capturing at missions not currently working
+-Missions do not pause for reactions upon leaving play, must be done manually
+
+For non-mission cards:
+-Shield Generator Assault, Wicket, Part of the Tribe, IG-88B, Illegal Modifications, Filthy Accusations have untested scripts
+-None of the other cards have properly tested scripting, all game text must be executed manually
+
+Further improvements will be added to mission functionality as they are successfully tested.
+
+Scripting of other Solo's Command cards and previously unscripted cards will be ongoing.
+
+To report any issues with current scripting, please visit:
 https://github.com/BolivarShagnasty/Star-Wars-LCG-OCTGN/issues
 
+To request cards to be scripted, visit:
+http://www.cardgamedb.com/forums/index.php?/topic/26815-octgn-automation-wishlist
 
---- Important ---
-I don't have the time to properly maintain the SW LCG anymore. If anyone has any experience in Python and would like to take over development, please contact me.
-
-Would you like to learn more?
 =============================
-&&
-http://octgn.gamersjudgement.com/wordpress/swlcg/request-assistancehandover/
+

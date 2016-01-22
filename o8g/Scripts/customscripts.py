@@ -717,7 +717,7 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             card.moveToTable(x, y - ((cwidth(card) / 4 * playerside) * cardAttachementsNR))
             card.sendToBack()
             TokensX('Put1isEnhancement-isSilent', '', card)
-            notify("{} climbs into {}".format(card,vehicle[0]))			            
+            notify("{} climbs into {}".format(card,vehicle[0]))	
    else: notify("{} uses {}'s ability".format(me,card)) # Just a catch-all.
 def chkLookupRestrictions(card,lookup,origin_card):
    debugNotify(">>> chkLookupRestrictions()") # Debug

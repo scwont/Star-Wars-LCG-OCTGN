@@ -23,6 +23,15 @@
            <text color="#FFFFFF" size="13" />
            <border color="#000000" size="2" />
          </block>
+   <!-- Mission Force Sphere Block-->
+         <block type="overlay" id="mission_force_sphere" src="Proxy/Elements/Force_Sphere.png">         
+           <location x="520" y="10" />
+         </block>  
+         <block type="text" id="mission_force_count">
+           <location x="526" y="14" />
+           <text color="#FFFFFF" size="13" />
+           <border color="#000000" size="2" />
+         </block>		 
    <!-- Battle Icons Block-->
          <block type="overlay" id="combat_icons_frame" src="Proxy/Elements/Icons_frame.png">         
            <location x="54" y="240" />
@@ -51,6 +60,11 @@
            <text color="#FFFFFF" size="20" />
            <border color="#FFFFFF" size="1" />
          </block>
+         <block type="text" id="mission_cost">
+           <location x="565" y="10" />
+           <text color="#FFFFFF" size="23" />
+           <border color="#000000" size="2" />
+         </block>		 
    <!-- Fate Blocks-->
          <block type="text" id="fate_name">
            <location x="85" y="25" />
@@ -1394,6 +1408,273 @@
                <property name="Block"  />
             </link>
             <link block="unit_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+   <!-- Mission Template -->
+      <template src="Proxy/Objectives/Mission_Sith.png">
+         <matches>
+            <match name="Affiliation" value="Sith" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+      <template src="Proxy/Objectives/Mission_Imperial.png">
+         <matches>
+            <match name="Affiliation" value="Imperial Navy" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+      <template src="Proxy/Objectives/Mission_Scums.png">
+         <matches>
+            <match name="Affiliation" value="Scum and Villainy" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+      <template src="Proxy/Objectives/Mission_Rebels.png">
+         <matches>
+            <match name="Affiliation" value="Rebel Alliance" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+      <template src="Proxy/Objectives/Mission_Jedi.png">
+         <matches>
+            <match name="Affiliation" value="Jedi" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>
+      </template>
+      <template src="Proxy/Objectives/Mission_Smugglers.png">
+         <matches>
+            <match name="Affiliation" value="Smugglers and Spies" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
+               <property name="Block Number"  />
+            </link>
+         </textblocks>			
+      </template>
+      <template src="Proxy/Objectives/Mission_Neutral.png">
+         <matches>
+            <match name="Affiliation" value="Neutral" />
+            <match name="Type" value="Mission" />
+         </matches>
+         <overlayblocks>
+            <link block="mission_force_sphere" />
+         </overlayblocks>		 
+         <textblocks>
+            <link block="objective_name" separator=" ">
+               <property name="Name"  />
+            </link>
+            <link block="mission_cost" separator=" ">
+               <property name="Cost"  />
+            </link>			
+            <link block="mission_force_count" separator=" ">
+               <property name="Force"  />
+            </link>			
+            <link block="objective_traits" separator=" ">
+               <property name="Traits"  />
+            </link>
+            <link block="objective_text" separator=" ">
+               <property name="Text"  />
+            </link>
+            <link block="objective_resources_count" separator=" ">
+               <property name="Resources"  />
+            </link>
+            <link block="objective_health" separator=" ">
+               <property name="Damage Capacity"  />
+            </link>
+            <link block="objective_block" separator=" ">
+               <property name="Block"  />
+            </link>
+            <link block="objective_Block Number" separator=" ">
                <property name="Block Number"  />
             </link>
          </textblocks>

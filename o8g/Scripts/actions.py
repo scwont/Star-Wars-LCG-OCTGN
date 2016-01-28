@@ -924,6 +924,7 @@ def discard(card, x = 0, y = 0, silent = False, Continuing = False, initPlayer =
             notify("===::: The Light Side wins the Game! :::====")
             reportGame('ObjectiveDefeat')
       autoscriptOtherPlayers('ObjectiveThwarted',card, origin_player = opponentPL)
+      autoscriptOtherPlayers('CardLeavingPlay',card)	  
       playThwartSound()
       card.moveTo(opponentPL.piles['Victory Pile']) # Objectives are won by the opponent
       cardsLeaving(card,'remove')
@@ -970,7 +971,7 @@ def discard(card, x = 0, y = 0, silent = False, Continuing = False, initPlayer =
          if opponentPL.counters['Objectives Destroyed'].value >= objRequired: 
             notify("===::: The Light Side wins the Game! :::====")
             reportGame('ObjectiveDefeat')
-      autoscriptOtherPlayers('ObjectiveThwarted',card, origin_player = opponentPL)
+      autoscriptOtherPlayers('CardLeavingPlay',card)	  
       playThwartSound()
       card.moveTo(opponentPL.piles['Victory Pile']) # Objectives are won by the opponent
       cardsLeaving(card,'remove')

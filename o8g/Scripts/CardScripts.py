@@ -5212,7 +5212,7 @@ Political Reliability Observer
 -----
 ff4fb461-8060-457a-9c16-000000000688
 -----
-onPlay:CommitTarget-Targeted-atUnit-isCommited$$UncommitTarget-Targeted-atUnit-isNotCommited
+onPlay:CommitTarget-Targeted-atUnit-isNotCommited$$UncommitTarget-Targeted-atUnit-isCommited
 +++++
 
 .....
@@ -6243,16 +6243,16 @@ Luke Skywalker
 -----
 ff4fb461-8060-457a-9c16-000000000818
 -----
-whileInPlay:Deal1Damage-foreachCardPlayed-byMe-typeEnhancement-onLuke Skywalker-DemiAutoTargeted-atUnit-choose1-targetOpponents-onlyOnce-isReact
+whileInPlay:Deal1Damage-foreachCardPlayed-byMe-typeEnhancement-ifHostLuke Skywalker-DemiAutoTargeted-atUnit-targetOpponents-choose1-isReact-onlyOnce
 +++++
-R0:DiscardCard-typeEnhancement-onLuke Skywalker-isCost$$Remove1Focus-AutoTargeted-onLuke Skywalker
+R0:DiscardCard-DemiAutoTargeted-atEnhancement-ifHostLuke Skywalker-choose1-isCost$$Remove1Focus-AutoTargeted-atLuke Skywalker
 
 .....
 Speeder Bike
 -----
 ff4fb461-8060-457a-9c16-000000000819
 -----
-ConstantEffect:Edge1Bonus||DestroyMyself-foreachEdgeWin-ifOrigEdgeLoser-ifOrigParticipating-isReact-isForced
+ConstantEffect:Edge1Bonus||whileInPlay:DestroyMyself-foreachEdgeWin-ifOrigEdgeLoser-ifOrigParticipating-isReact-isForced
 +++++
 
 .....
@@ -6568,7 +6568,7 @@ ff4fb461-8060-457a-9c16-000000000858
 +++++
 
 .....
-&#34;No Disintegrations&#34;
+"No Disintegrations"
 -----
 ff4fb461-8060-457a-9c16-000000000859
 -----
@@ -6907,7 +6907,7 @@ Rogue Squadron Assault
 -----
 ff4fb461-8060-457a-9c16-000000000901
 -----
-whileInPlay:Draw1Card-foreachCardPlayed-typeFighter_or_Pilot-onlyOnce-forMe-isReact
+whileInPlay:Draw1Card-foreachCardPlayed-typeFighter_or_Pilot-forMe-isReact-onlyOnce
 +++++
 
 
@@ -9181,6 +9181,291 @@ ff4fb461-8060-457a-9c16-000000001193
 Assassination Contract
 -----
 ff4fb461-8060-457a-9c16-000000001194
+-----
+
++++++
+
+.....
+Out of Their Element
+-----
+ff4fb461-8060-457a-9c16-000000001195
+-----
+
++++++
+
+.....
+Luke's Speeder Bike
+-----
+ff4fb461-8060-457a-9c16-000000001196
+-----
+ConstantEffect:Edge1Bonus||whileInPlay:DisengageMyself-foreachEdgeWin-ifOrigEdgeLoser-isReact
++++++
+
+.....
+Believer in the Old Ways
+-----
+ff4fb461-8060-457a-9c16-000000001197
+-----
++++++
+
+.....
+Believer in the Old Ways
+-----
+ff4fb461-8060-457a-9c16-000000001198
+-----
++++++
+
+.....
+Ambush Point
+-----
+ff4fb461-8060-457a-9c16-000000001199
+-----
++++++
+
+.....
+Force Persuasion
+-----
+ff4fb461-8060-457a-9c16-000000001200
+-----
+onPlay:RequestInt-Msg{If the unit is out-of-faction, press 2, otherwise press 1}$$Put1Focus-perX-Targeted-atCharacter_or_Creature
++++++
+
+.....
+Secret Weapons
+-----
+ff4fb461-8060-457a-9c16-000000001201
+-----
+
++++++
+
+.....
+Tydirium
+-----
+ff4fb461-8060-457a-9c16-000000001202
+-----
+ConstantEffect:Edge1Bonus-perEveryCard-AutoTargeted-isParticipating-targetOpponents||onLeavePlay:Lose1Dial-isReact
++++++
+
+.....
+Stolen Speeder Bike
+-----
+ff4fb461-8060-457a-9c16-000000001203
+-----
+onStrike:Put1Focus-AutoTargeted-atObjective-isParticipating-ifOrigAttacking-isStrikeAlternative-isReact-onlyOnce
++++++
+
+.....
+Stolen AT-ST
+-----
+ff4fb461-8060-457a-9c16-000000001204
+-----
+ConstantEffect:Protection-ifOrigHasntMarker{Focus}
++++++
+
+.....
+Hiding Among Enemies
+-----
+ff4fb461-8060-457a-9c16-000000001205
+-----
+onPlay:Put1Shield-Targeted-atUnit_and_Vehicle_and_Smugglers and Spies$$Discard1Card-ofAllOpponents-isRandom-isReact
++++++
+
+.....
+Target of Opportunity
+-----
+ff4fb461-8060-457a-9c16-000000001206
+-----
+onResolveFate:Deal1Damage-AutoTargeted-atObjective-isParticipating-ifOrigAttacking
++++++
+
+.....
+Courage of the Tribe
+-----
+ff4fb461-8060-457a-9c16-000000001207
+-----
+afterRefresh:Remove1Focus-DemiAutoTargeted-atUnit_and_Ewok-targetMine-choose1-duringMyTurn-isReact
++++++
+
+.....
+Chief Chirpa
+-----
+ff4fb461-8060-457a-9c16-000000001208
+-----
+afterPhase:Put1Focus-DemiAutoTargeted-atUnit_and_Ewok-targetMine-choose1-isCost-isReact$$Draw1Card
++++++
+
+.....
+Ewok Horde
+-----
+ff4fb461-8060-457a-9c16-000000001209
+-----
+onPay:Reduce1CostPlay-perEveryCard-AutoTargeted-atUnit_and_Ewok-targetMine-maxReduce4
++++++
+
+.....
+Ewok Horde
+-----
+ff4fb461-8060-457a-9c16-000000001210
+-----
+onPay:Reduce1CostPlay-perEveryCard-AutoTargeted-atUnit_and_Ewok-targetMine-maxReduce4
++++++
+
+.....
+Bright Tree Village
+-----
+ff4fb461-8060-457a-9c16-000000001211
+-----
+
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001212
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Merciless Plans
+-----
+ff4fb461-8060-457a-9c16-000000001213
+-----
+whileInPlay:SimplyAnnounce{Merciless Plans triggers to set the Balance of the Force to the Dark Side}-foreachCardPlayed-typeMission-isReact||whileInPlay:SimplyAnnounce{Merciless Plans triggers to set the Balance of the Force to the Dark Side}-foreachCardLeavingPlay-typeMission-isReact
++++++
+
+.....
+Boc
+-----
+ff4fb461-8060-457a-9c16-000000001214
+-----
+ExtraIcon:BD:2-ifOrigAttacking-hasObjectiveTrait-typeMission
++++++
+
+.....
+Expendable Scout
+-----
+ff4fb461-8060-457a-9c16-000000001215
+-----
++++++
+R0:SacrificeMyself$$SimplyAnnounce{Choose 1 player to discard 1 card from their hand and then draw 1 card from their command deck}
+
+.....
+Sith Lightsaber
+-----
+ff4fb461-8060-457a-9c16-000000001216
+-----
+Placement:Force User_or_Force Sensitive||BonusIcons:UD:1, EE-T:1
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001217
+-----
+
++++++
+
+.....
+Dark Genocide
+-----
+ff4fb461-8060-457a-9c16-000000001218
+-----
+
++++++
+
+.....
+Sector Lockdown
+-----
+ff4fb461-8060-457a-9c16-000000001219
+-----
+
++++++
+
+.....
+Captain Zed
+-----
+ff4fb461-8060-457a-9c16-000000001220
+-----
+
++++++
+
+.....
+Stalker
+-----
+ff4fb461-8060-457a-9c16-000000001221
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
++++++
+
+.....
+Storm Commando
+-----
+ff4fb461-8060-457a-9c16-000000001222
+-----
+onPlay:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact||onLeavePlay:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact
++++++
+
+.....
+Sector Garrison
+-----
+ff4fb461-8060-457a-9c16-000000001223
+-----
++++++
+R0:Put1Focus-isCost$$Retrieve1Card-grabUnit-fromDiscard-toDeck$$ShuffleDeck
+
+.....
+Search and Detain
+-----
+ff4fb461-8060-457a-9c16-000000001224
+-----
+
++++++
+
+.....
+The Spice Trade
+-----
+ff4fb461-8060-457a-9c16-000000001225
+-----
+
++++++
+
+.....
+Moruth Doole
+-----
+ff4fb461-8060-457a-9c16-000000001226
+-----
+whileInPlay:Remove1Focus-foreachCardLeavingPlay-typeObjective-DemiAutoTargeted-atUnit-hasMarker{Focus}-targetMine-choose1-isReact$$Put1Focus-DemiAutoTargeted-atUnit-targetOpponents-choose1
++++++
+
+.....
+Energy Spider
+-----
+ff4fb461-8060-457a-9c16-000000001227
+-----
+
++++++
+
+.....
+Energy Spider
+-----
+ff4fb461-8060-457a-9c16-000000001228
+-----
+
++++++
+
+.....
+Spice Blitz
+-----
+ff4fb461-8060-457a-9c16-000000001229
+-----
+
++++++
+
+.....
+Hallucination
+-----
+ff4fb461-8060-457a-9c16-000000001230
 -----
 
 +++++

@@ -2,6 +2,14 @@ Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
 ### 2.20.0.x
 
+New Alliances has been added
+
+### 2.21.0.x
+
+Solo's Command has been added
+
+### 2.20.0.x
+
 Jump to Lightspeed has been added
 
 ### 2.19.0.x

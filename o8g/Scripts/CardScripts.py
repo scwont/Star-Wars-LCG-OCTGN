@@ -4996,7 +4996,7 @@ The Dark Trooper Project
 -----
 ff4fb461-8060-457a-9c16-000000000661
 -----
-
+afterRefresh:Remove1Focus-AutoTargeted-atUnit-isCommited-targetMine
 +++++
 
 .....
@@ -6243,7 +6243,7 @@ Luke Skywalker
 -----
 ff4fb461-8060-457a-9c16-000000000818
 -----
-whileInPlay:Deal1Damage-foreachCardPlayed-byMe-typeEnhancement-ifHostLuke Skywalker-DemiAutoTargeted-atUnit-targetOpponents-choose1-isReact-onlyOnce
+whileInPlay:Deal1Damage-DemiAutoTargeted-atUnit-targetOpponents-choose1-foreachCardPlayed-byMe-typeEnhancement-ifHostLuke Skywalker-isReact-onlyOnce
 +++++
 R0:DiscardCard-DemiAutoTargeted-atEnhancement-ifHostLuke Skywalker-choose1-isCost$$Remove1Focus-AutoTargeted-atLuke Skywalker
 
@@ -8272,6 +8272,7 @@ Heat of Battle
 ff4fb461-8060-457a-9c16-000000001080
 -----
 onResolveFate:Deal1Damage-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1
++++++
 
 .....
 House Edge
@@ -8847,7 +8848,7 @@ Heat of Battle
 -----
 ff4fb461-8060-457a-9c16-000000001152
 -----
-
+onResolveFate:Deal1Damage-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1
 +++++
 
 .....
@@ -9126,7 +9127,7 @@ Illegal Modifications
 -----
 ff4fb461-8060-457a-9c16-000000001187
 -----
-Placement:Droid_and_Unit||onHostMarkerAddFocus:Deal1Damage-AutoTargeted-onHost-isReact$$Remove1Focus-AutoTargeted-onHost-onlyOnce
+Placement:Droid_and_Unit||onHostMarkerAddFocus:Deal1Damage-AutoTargeted-onHost-isCost-isReact-onlyOnce$$Remove1Focus-AutoTargeted-onHost
 +++++
 
 .....

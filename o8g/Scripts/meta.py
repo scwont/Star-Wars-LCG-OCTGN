@@ -69,6 +69,7 @@ def storeObjective(card, GameSetup = False):
          Objective.moveToTable(MPxOffset + (playerside * -310) - 25, MPyOffset + (playerside * 10) + (70 * iter * playerside) + yaxisMove(Objective), True)
          Objective.highlight = ObjectiveSetupColor # During game setup, we put the objectives face down so that the players can draw their hands before we reveal them.
          Objective.orientation = Rot0
+         Objective.peek()
    else:
       for iter in range(len(currentObjectives)):
          Objective = Card(currentObjectives[iter])
@@ -81,7 +82,7 @@ def storeObjective(card, GameSetup = False):
    me.setGlobalVariable('currentObjectives', str(currentObjectives))
    debugNotify("<<< storeObjective()") #Debug
 
-def getSpecial(cardType,player = me):
+def getSpecial(cardType, player = me):
 # Functions takes as argument the name of a special card, and the player to whom it belongs, and returns the card object.
    debugNotify(">>> getSpecial(){}".format(extraASDebug())) #Debug
    if cardType == 'BotD':   

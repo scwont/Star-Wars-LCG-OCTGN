@@ -8165,7 +8165,7 @@ Well Paid
 -----
 ff4fb461-8060-457a-9c16-000000001066
 -----
-onPlay:SimplyAnnounce{reduce the cost and pilot cost of each Pilot and each Vehicle card they play this phase by 1.}$$CreateDummy-nonUnique-isSilent||whileInPlay:Reduce1CostPlay-affectsPilot_or_Vehicle Ship-onlyforDummy||afterPhase:DestroyMyself-onlyforDummy-isSilent
+onPlay:SimplyAnnounce{reduce the cost and pilot cost of each Pilot and each Vehicle card they play this phase by 1.}$$CreateDummy-nonUnique-doNotDiscard-isSilent||whileInPlay:Reduce1CostPlay-affectsPilot_or_Vehicle-onlyforDummy||afterPhase:DestroyMyself-onlyforDummy-isSilent
 +++++
 
 .....
@@ -8173,7 +8173,7 @@ Well Paid
 -----
 ff4fb461-8060-457a-9c16-000000001067
 -----
-onPlay:SimplyAnnounce{reduce the cost and pilot cost of each Pilot and each Vehicle card they play this phase by 1.}$$CreateDummy-nonUnique-isSilent||whileInPlay:Reduce1CostPlay-affectsPilot_or_Vehicle Ship-onlyforDummy||afterPhase:DestroyMyself-onlyforDummy-isSilent
+onPlay:SimplyAnnounce{reduce the cost and pilot cost of each Pilot and each Vehicle card they play this phase by 1.}$$CreateDummy-nonUnique-doNotDiscard-isSilent||whileInPlay:Reduce1CostPlay-affectsPilot_or_Vehicle-onlyforDummy||afterPhase:DestroyMyself-onlyforDummy-isSilent
 +++++
 
 .....
@@ -8520,31 +8520,31 @@ Mysteries of the Rim
 -----
 ff4fb461-8060-457a-9c16-000000001111
 -----
-
 +++++
+R0:Put1Focus-DemiAutoTargeted-atJedi_and_Unit-choose1-isCost$$Remove1Focus
 
 .....
 Outer Rim Mystic
 -----
 ff4fb461-8060-457a-9c16-000000001112
 -----
-
 +++++
+R0:Remove1Focus-DemiAutoTargeted-atUnit-hasMarker{Focus}-choose1-isCost$$Put1Focus
 
 .....
 Outer Rim Mystic
 -----
 ff4fb461-8060-457a-9c16-000000001113
 -----
-
 +++++
+R0:Remove1Focus-DemiAutoTargeted-atUnit-hasMarker{Focus}-choose1-isCost$$Put1Focus
 
 .....
 Niman Training
 -----
 ff4fb461-8060-457a-9c16-000000001114
 -----
-
+Placement:Force User_or_Force Sensitive
 +++++
 
 .....
@@ -8552,7 +8552,7 @@ Niman Training
 -----
 ff4fb461-8060-457a-9c16-000000001115
 -----
-
+Placement:Force User_or_Force Sensitive
 +++++
 
 .....
@@ -9372,7 +9372,7 @@ Dark Genocide
 -----
 ff4fb461-8060-457a-9c16-000000001218
 -----
-
+onPlay:CustomScript
 +++++
 
 .....

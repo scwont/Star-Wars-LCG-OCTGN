@@ -717,7 +717,13 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             card.moveToTable(x, y - ((cwidth(card) / 4 * playerside) * cardAttachementsNR))
             card.sendToBack()
             TokensX('Put1isEnhancement-isSilent', '', card)
-            notify("{} climbs into {}".format(card,vehicle[0]))	
+            notify("{} climbs into {}".format(card,vehicle[0]))
+   elif card.name == 'Dark Genocide' and action == 'PLAY': # We move this card to the opponent's exile in order to try and give control to them automatically.
+      if me.hasInvertedTable(): card.moveToTable(0,0)
+      else:  card.moveToTable(0,-cheight(card))
+      card.setController(findOpponent())
+      debugNotify("About to whisper") # Debug
+      whisper(":::IMPORTANT::: Please make sure that the controller for this card is always the Light Side player")			
    else: notify("{} uses {}'s ability".format(me,card)) # Just a catch-all.
 def chkLookupRestrictions(card,lookup,origin_card):
    debugNotify(">>> chkLookupRestrictions()") # Debug

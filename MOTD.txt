@@ -1,34 +1,21 @@
 =====Message of the Day======
 
-New Alliances now available. Scripting for the set includes:
--Missions, when deployed, automatically transfer control to the opposing player and go to their side of the table
--Missions can be engaged, and when thwarted properly go to victory pile of correct player and increase dial
--Missions can be discarded from hand without issues
--Missions can be used in edge and go to discard correctly
+The Forest Moon now available.
+
+Untested scripts are included for the following cards:
+Unhinged Astromech
+Outwit
+Home One
+MC80
+Lobot
+Hiding Among Friends
+Dark Counsel
+Executor
+Jamming Protocol
 
 Current known issues:
 -Capturing at missions not currently working
 -Missions do not pause for reactions upon leaving play, must be done manually
-
-New Alliances cards with untested scripting:
-Luke's Speeder Bike
-Force Persuasion
-Tydirium
-Stolen Speeder Bike
-Stolen AT-ST
-Hiding Among Enemies
-Courage of the Tribe
-Chief Chirpa (technically triggers off phase end, but each phase ending is a phase beginning, so 6 one way, half dozen the other)
-Ewok Horde
-Battle of Endor (should be prompted for value)
-Merciless Plans (should give react prompt, balance change must be done manually)
-Boc (should get extra BD when attacking mission, no Targeted Strike yet)
-Expendale Scout (Using ability causes sacrificing self, discard and draw must be done manually)
-Sith Lightsaber (should work fine, not really different from other sabers)
-Stalker (just shielding, not extra icons yet)
-Sector Garrison
-Moruth Doole
-
 
 Further improvements will be added to mission functionality as they are successfully tested.
 

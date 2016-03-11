@@ -5244,7 +5244,7 @@ Zuckuss
 -----
 ff4fb461-8060-457a-9c16-000000000692
 -----
-onStrike:CaptureTarget-AutoTargeted-fromDeckOpponents-onTop3Cards-choose1-isReact
+onStrike:CaptureTarget-DemiAutoTargeted-fromDeckOpponents-onTop3Cards-choose1-isReact
 +++++
 
 .....
@@ -5284,7 +5284,7 @@ The Flight of the Crow
 -----
 ff4fb461-8060-457a-9c16-000000000697
 -----
-ConstantEffect:Edge1Bonus-perEveryUnit-AutoTargeted-atUnit_and_Jedi_and_Unique-targetMine-isParticipating-isDistributedEffect
+ConstantEffect:Edge1Bonus-AutoTargeted-atUnit_and_Jedi_and_Unique-targetMine-isParticipating-isDistributedEffect
 +++++
 
 ....
@@ -5700,7 +5700,7 @@ Award Ceremony
 -----
 ff4fb461-8060-457a-9c16-000000000749
 -----
-onPlay:BringtoPlayTarget-DemiAutoTargeted-atCharacter_andI_Imperial Navy-fromHand-isReact
+onPlay:BringtoPlayTarget-DemiAutoTargeted-atCharacter_and_Imperial Navy-fromHand-isReact
 +++++
 
 .....
@@ -5772,7 +5772,7 @@ Leia Organa
 -----
 ff4fb461-8060-457a-9c16-000000000758
 -----
-afterConflict:Deal1Damage-DemiAutoTargeted-atUnit-isReady||afterConflict:Deal1Damage-DemiAutoTargeted-atUnit-isReady
+afterConflict:Deal1Damage-AutoTargeted-atUnit-targetOpponents-isReady-duringOpponentTurn-isReact
 +++++
 
 .....
@@ -7054,7 +7054,7 @@ Baron Fel
 -----
 ff4fb461-8060-457a-9c16-000000000920
 -----
-onPlay:CustomScript||onPay:Reduce2CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce2||ConstantEffect:Edge1Bonus-perEveryUnit_and_Fighter-AutoTargeted-onHost-atFighter-isDistributedEffect
+onPlay:CustomScript||onPay:Reduce2CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce2||Edge1Bonus-AutoTargeted-atFighter-targetMine-isParticipating-ifHostFighter-isDistributedEffect
 +++++
 
 .....
@@ -8049,6 +8049,7 @@ The Forgotten Masters
 -----
 ff4fb461-8060-457a-9c16-000000001051
 -----
+
 +++++
 
 .....
@@ -8079,7 +8080,7 @@ A Gift From the Past
 -----
 ff4fb461-8060-457a-9c16-000000001055
 -----
-
+onPlay:UncommitTarget-DemiAutoTargeted-atUnit-isCommited-targetMine-choose1&&CommitTarget-DemiAutoTargeted-atUnit-isNotCommited-targetMine-choose1
 +++++
 
 .....
@@ -8189,6 +8190,7 @@ The Reawakening
 -----
 ff4fb461-8060-457a-9c16-000000001069
 -----
+whileInPlay:Discard1Card-DemiAutoTargeted-fromDeckOpponents-onTop2Cards-choose1-foreachForceStruggleDark-isReact
 +++++
 
 .....
@@ -8264,6 +8266,7 @@ Threat Removal
 -----
 ff4fb461-8060-457a-9c16-000000001079
 -----
+onPlay:ReturnTarget-DemiAutoTargeted-atUnit-targetOpponents-isParticipating-choose1
 +++++
 
 .....
@@ -8279,7 +8282,6 @@ House Edge
 -----
 ff4fb461-8060-457a-9c16-000000001081
 -----
-
 +++++
 
 .....
@@ -8296,7 +8298,7 @@ Herglic Sabacc Addict
 -----
 ff4fb461-8060-457a-9c16-000000001083
 -----
-
+onPlay:SimplyAnnounce{Name a card. Look at opponent's hand and discard all copies of that card.}
 +++++
 
 .....
@@ -8328,7 +8330,7 @@ Debt of Honor
 -----
 ff4fb461-8060-457a-9c16-000000001087
 -----
-
+whileInPlay:Retrieve1Card-grabWookie-fromDiscard-isTopmost-foreachCardLeavingPlay-typeWookie-onlyOnce-isReact
 +++++
 
 .....
@@ -8344,7 +8346,7 @@ Wookie Defender
 -----
 ff4fb461-8060-457a-9c16-000000001089
 -----
-
+ExtraIcon:UD:1-ifOrigHasMarker{Shield}
 +++++
 
 .....
@@ -8352,15 +8354,14 @@ Kashyyyk Resistance Hideout
 -----
 ff4fb461-8060-457a-9c16-000000001090
 -----
-
 +++++
+R1:Put2Shield-DemiAutoTargeted-atUnit-choose1-targetAllied
 
 .....
 Wookie Rage
 -----
 ff4fb461-8060-457a-9c16-000000001091
 -----
-
 +++++
 
 .....
@@ -8384,7 +8385,7 @@ Lady Luck
 -----
 ff4fb461-8060-457a-9c16-000000001094
 -----
-
+onStrike:SimplyAnnounce{Reveal the top 3 cards of your deck. Discard one of those cards, place one on the bottom of your deck, and place one into your hand}-isReact
 +++++
 
 .....
@@ -8424,7 +8425,7 @@ Honor Among Thieves
 -----
 ff4fb461-8060-457a-9c16-000000001099
 -----
-
+whileInPlay:Remove1Focus-foreachCardPlayed-byOpponent-typeEvent-onlyOnce-isReact
 +++++
 
 .....
@@ -8432,7 +8433,7 @@ Mirax Terrik
 -----
 ff4fb461-8060-457a-9c16-000000001100
 -----
-whileInPlay:Reduce1CostPlay-affectsEvent-onlyOnce
+whileInPlay:Reduce1CostPlay-affectsEvent-onlyOnce-forMe
 +++++
 
 .....
@@ -8464,7 +8465,7 @@ One Last Trick
 -----
 ff4fb461-8060-457a-9c16-000000001104
 -----
-
+onPlay:Put1Focus-Targeted-atUnit
 +++++
 
 .....
@@ -8472,7 +8473,7 @@ Renegade Reinforcements
 -----
 ff4fb461-8060-457a-9c16-000000001105
 -----
-
+whileInPlay:IncreaseEE-T:1-foreachUnitStrike-onTriggerCard-typeRenegade Squadron-onlyOnce-isReact
 +++++
 
 .....
@@ -8496,8 +8497,8 @@ Hidden Backup
 -----
 ff4fb461-8060-457a-9c16-000000001108
 -----
-
 +++++
+R1:EngageTarget-Targeted-atUnit-targetMine-isNotParticipating-ifOrigDefending
 
 .....
 Directed Fire
@@ -8600,7 +8601,7 @@ Undercover
 -----
 ff4fb461-8060-457a-9c16-000000001121
 -----
-
+onPlay:Retrieve2Card-fromDiscard-toDeck$$ShuffleDeck$$CaptureMyself
 +++++
 
 .....
@@ -8608,7 +8609,7 @@ Rescue Mission
 -----
 ff4fb461-8060-457a-9c16-000000001122
 -----
-
+onPlay:CustomScript
 +++++
 
 .....
@@ -8632,7 +8633,7 @@ Stormtrooper Assault Team
 -----
 ff4fb461-8060-457a-9c16-000000001125
 -----
-
+onStrike:RequestInt-Msg{How many Imperial Navy objectives do you control?}$$ExtraIcon:EE-UD:1-perX
 +++++
 
 .....
@@ -8640,15 +8641,15 @@ Rule by Fear
 -----
 ff4fb461-8060-457a-9c16-000000001126
 -----
-
 +++++
+R0:SacrificeMyself$$ReturnTarget-DemiAutoTargeted-atUnit-targetOpponents-choose1
 
 .....
 Moment of Triumph
 -----
 ff4fb461-8060-457a-9c16-000000001127
 -----
-
+onPlay:DestroyMultiple-AutoTargeted-atUnit-hasProperty{Cost}le2
 +++++
 
 .....
@@ -8680,7 +8681,7 @@ DP20 Corellian Gunship
 -----
 ff4fb461-8060-457a-9c16-000000001131
 -----
-onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough&&Put1Shield-AutoTargeted-atUnit_or_Objective-targetMine-choose1-isReact
 +++++
 
 .....
@@ -8712,7 +8713,7 @@ Enforced Loyalty
 -----
 ff4fb461-8060-457a-9c16-000000001135
 -----
-
+atTurnEnd:Deal1Damage-AutoTargeted-atObjective-targetOpponents-duringOpponentTurn-ifOrigHasntMarker{Damage}-onlyOnce-isReact
 +++++
 
 .....
@@ -8720,7 +8721,7 @@ Colonel Yularen
 -----
 ff4fb461-8060-457a-9c16-000000001136
 -----
-
+onPlay:Remove2Damage-DemiAutoTargeted-atObjective-hasMarker{Damage}-targetMine-choose1-isCost-isReact$$Deal1Damage-DemiAutoTargeted-atObjective-targetOpponents-choose1
 +++++
 
 .....
@@ -9469,6 +9470,231 @@ Hallucination
 ff4fb461-8060-457a-9c16-000000001230
 -----
 
++++++
+
+.....
+Matter Under Mind
+-----
+ff4fb461-8060-457a-9c16-000000001231
+-----
++++++
+
+.....
+Brainiac
+-----
+ff4fb461-8060-457a-9c16-000000001232
+-----
++++++
+
+.....
+Unhinged Astromech
+-----
+ff4fb461-8060-457a-9c16-000000001233
+-----
++++++
+R0:SacrificeMyself&&Deal1Damage-DemiAutoTargeted-atUnit-choose1||R0:SacrificeMyself&&Discard1Card-ofAllOpponents-isRandom-isReact||R0:SacrificeMyself&&Remove3Damage-DemiAutoTargeted-atUnit-choose1
+
+.....
+Unhinged Astromech
+-----
+ff4fb461-8060-457a-9c16-000000001234
+-----
++++++
+R0:SacrificeMyself&&Deal1Damage-DemiAutoTargeted-atUnit-choose1||R0:SacrificeMyself&&Discard1Card-ofAllOpponents-isRandom-isReact||R0:SacrificeMyself&&Remove3Damage-DemiAutoTargeted-atUnit-choose1
+
+.....
+Signal Scrambler
+-----
+ff4fb461-8060-457a-9c16-000000001235
+-----
++++++
+
+.....
+Outwit
+-----
+ff4fb461-8060-457a-9c16-000000001236
+-----
+onPlay:SimplyAnnounce{Resolve fate cards from highest priority to lowest priority}$$Draw1Card
++++++
+
+.....
+Solidarity of Spirit
+-----
+ff4fb461-8060-457a-9c16-000000001237
+-----
++++++
+
+.....
+Home One
+-----
+ff4fb461-8060-457a-9c16-000000001238
+-----
+onStrike:Deal3Damage-DemiAutoTargeted-atObjective-targetOpponents-choose1-ifOrighasEdge-isReact||onStrike:Deal2Damage-DemiAutoTargeted-atObjective-targetOpponents-choose1-isReact
++++++
+
+.....
+MC80 Liberty-type Cruiser
+-----
+ff4fb461-8060-457a-9c16-000000001239
+-----
+onPlay:SimplyAnnounce{reduce the cost of the next Vehicle they play this phase by 1}$$CreateDummy-isSilent-nonUnique-doNotDiscard||whileInPlay:Reduce1CostPlay-affectsVehicle-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeVehicle-onlyforDummy-isSilent
++++++
+
+.....
+MC80 Liberty-type Cruiser
+-----
+ff4fb461-8060-457a-9c16-000000001240
+-----
+onPlay:SimplyAnnounce{reduce the cost of the next Vehicle they play this phase by 1}$$CreateDummy-isSilent-nonUnique-doNotDiscard||whileInPlay:Reduce1CostPlay-affectsVehicle-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeVehicle-onlyforDummy-isSilent
++++++
+
+.....
+Rebel Fleet Command
+-----
+ff4fb461-8060-457a-9c16-000000001241
+-----
+
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001242
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Sowers of Dissension
+-----
+ff4fb461-8060-457a-9c16-000000001243
+-----
++++++
+
+.....
+Lobot
+-----
+ff4fb461-8060-457a-9c16-000000001244
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
++++++
+
+.....
+Duros Saboteur
+-----
+ff4fb461-8060-457a-9c16-000000001245
+-----
++++++
+
+.....
+Duros Saboteur
+-----
+ff4fb461-8060-457a-9c16-000000001246
+-----
++++++
+
+.....
+Paid Off
+-----
+ff4fb461-8060-457a-9c16-000000001247
+-----
++++++
+
+.....
+Hiding Among Friends
+-----
+ff4fb461-8060-457a-9c16-000000001248
+-----
+onPlay:Put1Shield-DemiAutoTargeted-atCharacter_and_Smugglers and Spies-choose1$$Draw1Card
++++++
+
+.....
+Dark Counsel
+-----
+ff4fb461-8060-457a-9c16-000000001249
+-----
+whileInPlay:Put1Focus-foreachUnitStrike-onTriggerCard-typeUnit-hasMarker{Damage}-byOpposingOriginController-onlyOnce-isReact
++++++
+
+.....
+Janus Greejatus
+-----
+ff4fb461-8060-457a-9c16-000000001250
+-----
++++++
+
+.....
+Imperial Functionary
+-----
+ff4fb461-8060-457a-9c16-000000001251
+-----
++++++
+
+.....
+Sith Library
+-----
+ff4fb461-8060-457a-9c16-000000001252
+-----
++++++
+
+.....
+Administrative Detainment
+-----
+ff4fb461-8060-457a-9c16-000000001253
+-----
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001254
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Moon Blockade
+-----
+ff4fb461-8060-457a-9c16-000000001255
+-----
++++++
+
+.....
+Executor
+-----
+ff4fb461-8060-457a-9c16-000000001256
+-----
+onPlay:Deal3Damage-DemiAutoTargeted-atObjective-targetOpponents-choose1-isReact
++++++
+
+.....
+Rear Admiral Chiraneau
+-----
+ff4fb461-8060-457a-9c16-000000001257
+-----
++++++
+
+.....
+Imperial Engineer
+-----
+ff4fb461-8060-457a-9c16-000000001258
+-----
++++++
+
+.....
+Jamming Protocol
+-----
+ff4fb461-8060-457a-9c16-000000001259
+-----
+onPlay:SimplyAnnounce{cancel the effects of the event card}$$Put1Effects Cancelled-DemiAutoTargeted-atEvent-isReady-choose1-isSilent
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001260
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
 +++++
 
 .....

@@ -1,6 +1,11 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
-### 2.20.0.x
+### 2.23.0.x
+
+Forest Moon has been added
+
+
+### 2.22.0.x
 
 New Alliances has been added
 

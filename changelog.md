@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.24.0.x
+
+So Be It has been added
+
 ### 2.23.0.x
 
 Forest Moon has been added

@@ -2695,6 +2695,27 @@ afterCardRefreshing:Remove1Focus-AutoTargeted-atUnit_and_Mercenary_or_Unit_and_B
 +++++
 
 .....
+Outer Rim Space Pirates
+-----
+ff4fb461-8060-457a-9c16-000000000344
+-----
++++++
+
+.....
+Corrupt Official
+-----
+ff4fb461-8060-457a-9c16-000000000345
+-----
++++++
+
+.....
+Corrupt Official
+-----
+ff4fb461-8060-457a-9c16-000000000346
+-----
++++++
+
+.....
 Protection
 -----
 ff4fb461-8060-457a-9c16-000000000324
@@ -9695,6 +9716,294 @@ Battle of Endor
 ff4fb461-8060-457a-9c16-000000001260
 -----
 onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Turning the Tide
+-----
+ff4fb461-8060-457a-9c16-000000001261
+-----
+whileInPlay:foreachCardPlayed-byMe-typeMission-Remove1Focus-onlyOnce-isReact||whileInPlay:foreachCardPlayed-byMe-typeEvent_and_Rebel Alliance-Remove1Focus-onlyOnce-isReact
++++++
+
+.....
+Admiral Ackbar
+-----
+ff4fb461-8060-457a-9c16-000000001262
+-----
+
++++++
+
+.....
+Alliance B-Wing
+-----
+ff4fb461-8060-457a-9c16-000000001263
+-----
+
++++++
+
+.....
+Alliance B-Wing
+-----
+ff4fb461-8060-457a-9c16-000000001264
+-----
+
++++++
+
+.....
+Ackbar's Orders
+-----
+ff4fb461-8060-457a-9c16-000000001265
+-----
+
++++++
+
+.....
+The Final Battle
+-----
+ff4fb461-8060-457a-9c16-000000001266
+-----
+
++++++
+
+.....
+Feigning Captivity
+-----
+ff4fb461-8060-457a-9c16-000000001267
+-----
+
++++++
+
+.....
+Tamtel Skreej
+-----
+ff4fb461-8060-457a-9c16-000000001268
+-----
+
++++++
+
+.....
+Infiltration Specialist
+-----
+ff4fb461-8060-457a-9c16-000000001269
+-----
+
++++++
+
+.....
+Infiltration Specialist
+-----
+ff4fb461-8060-457a-9c16-000000001270
+-----
+
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001271
+-----
+
++++++
+
+.....
+To Save a Friend
+-----
+ff4fb461-8060-457a-9c16-000000001272
+-----
+
++++++
+
+.....
+The Tree Tribes
+-----
+ff4fb461-8060-457a-9c16-000000001273
+-----
+
++++++
+
+.....
+Ewok Ambusher
+-----
+ff4fb461-8060-457a-9c16-000000001274
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Ewok Ambusher
+-----
+ff4fb461-8060-457a-9c16-000000001275
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Ewok Ambusher
+-----
+ff4fb461-8060-457a-9c16-000000001276
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Ewok Ambusher
+-----
+ff4fb461-8060-457a-9c16-000000001277
+-----
+DeployAllowance:Conflict
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001278
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Fearsome and Foul
+-----
+ff4fb461-8060-457a-9c16-000000001279
+-----
+onPlay:Retrieve1Card-grabCreature-isReact$$ShuffleDeck
++++++
+
+.....
+Sith Wyrm
+-----
+ff4fb461-8060-457a-9c16-000000001280
+-----
+
++++++
+
+.....
+Sith Wyrm
+-----
+ff4fb461-8060-457a-9c16-000000001281
+-----
+
++++++
+
+.....
+Sith Wyrm
+-----
+ff4fb461-8060-457a-9c16-000000001282
+-----
+
++++++
+
+.....
+Dark Lair
+-----
+ff4fb461-8060-457a-9c16-000000001283
+-----
+whileInPlay:foreachCardPlayed-byMe-typeCreature_or_Sithspawn-Draw1Card-isReact
++++++
+
+.....
+Feeding Frenzy
+-----
+ff4fb461-8060-457a-9c16-000000001284
+-----
+onPlay:DestroyTarget-Targeted-atUnit
++++++
+
+.....
+Endor Entrapment
+-----
+ff4fb461-8060-457a-9c16-000000001285
+-----
++++++
+R0:SimplyAnnounce{discard an Imperial Navy card to cancel damage equal to the number of it's force icons}-onlyOnce
+
+.....
+Interdictor-class Heavy Cruiser
+-----
+ff4fb461-8060-457a-9c16-000000001286
+-----
+onAttack:EngageTarget-Targeted-atUnit-targetOpponents-hasntMarker{Focus}
++++++
+
+.....
+Gladiator-class Star Destroyer
+-----
+ff4fb461-8060-457a-9c16-000000001287
+-----
++++++
+R0:SimplyAnnounce{place one card not named Twist of Fate from their hand into their edge stack}
+
+.....
+Gladiator-class Star Destroyer
+-----
+ff4fb461-8060-457a-9c16-000000001288
+-----
++++++
+R0:SimplyAnnounce{place one card not named Twist of Fate from their hand into their edge stack}
+
+.....
+Control Room
+-----
+ff4fb461-8060-457a-9c16-000000001289
+-----
+
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001290
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Schemes and Intrigues
+-----
+ff4fb461-8060-457a-9c16-000000001291
+-----
+
++++++
+
+.....
+Ephant Mon
+-----
+ff4fb461-8060-457a-9c16-000000001292
+-----
+
++++++
+
+.....
+Chevin Mercenary
+-----
+ff4fb461-8060-457a-9c16-000000001293
+-----
+
++++++
+
+.....
+Head of Security
+-----
+ff4fb461-8060-457a-9c16-000000001294
+-----
+Placement:Scum and Villainy_and_Unit||BonusIcons:T:1
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001295
+-----
+
++++++
+
+.....
+Capture the Assassin
+-----
+ff4fb461-8060-457a-9c16-000000001296
+-----
+
 +++++
 
 .....

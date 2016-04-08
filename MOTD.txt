@@ -1,17 +1,6 @@
 =====Message of the Day======
 
-The Forest Moon now available.
-
-Untested scripts are included for the following cards:
-Unhinged Astromech
-Outwit
-Home One
-MC80
-Lobot
-Hiding Among Friends
-Dark Counsel
-Executor
-Jamming Protocol
+So Be It is now available.
 
 Current known issues:
 -Capturing at missions not currently working
@@ -19,7 +8,9 @@ Current known issues:
 
 Further improvements will be added to mission functionality as they are successfully tested.
 
-Scripting of other New Alliances cards and previously unscripted cards will be ongoing.
+Come join us on the SW:LCG Discord Server. You can text chat with other players as well as
+use the voice channels to interact with your OCTGN opponents.
+https://discordapp.com/invite/0shXbwedwlOcu64k
 
 To report any issues with current scripting, please visit:
 https://github.com/BolivarShagnasty/Star-Wars-LCG-OCTGN/issues

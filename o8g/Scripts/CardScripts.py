@@ -2427,7 +2427,7 @@ MTV-7
 -----
 ff4fb461-8060-457a-9c16-000000000309
 -----
-ExtraIcon:BD:1-ifOrigAttacking--isDamagedObjective
+ExtraIcon:BD:1-ifOrigAttacking-isDamagedObjective
 +++++
 
 .....
@@ -2435,7 +2435,7 @@ MTV-7
 -----
 ff4fb461-8060-457a-9c16-000000000310
 -----
-ExtraIcon:BD:1-ifOrigAttacking--isDamagedObjective
+ExtraIcon:BD:1-ifOrigAttacking-isDamagedObjective
 +++++
 
 .....
@@ -3452,11 +3452,34 @@ onResolveFate:Deal1Damage-AutoTargeted-atObjective-isParticipating-ifOrigAttacki
 +++++
 
 .....
+Trandoshan Terror
+-----
+ff4fb461-8060-457a-9c16-000000000451
+-----
++++++
+
+.....
 Bossk
 -----
 ff4fb461-8060-457a-9c16-000000000452
 -----
 onPlay:Put2Focus-isCost-isReact$$CaptureTarget-DemiAutoTargeted-atCharacter-hasMarker{Focus}-choose1
++++++
+
+.....
+Trandoshan Hunter
+-----
+ff4fb461-8060-457a-9c16-000000000453
+-----
+
++++++
+
+.....
+Trandoshan Hunter
+-----
+ff4fb461-8060-457a-9c16-000000000454
+-----
+
 +++++
 
 .....
@@ -10004,6 +10027,246 @@ Capture the Assassin
 ff4fb461-8060-457a-9c16-000000001296
 -----
 
++++++
+
+.....
+Lost in the Forest
+-----
+ff4fb461-8060-457a-9c16-000000001297
+-----
+
++++++
+
+.....
+C-3PO
+-----
+ff4fb461-8060-457a-9c16-000000001298
+-----
+
++++++
+
+.....
+Homeland Defender
+-----
+ff4fb461-8060-457a-9c16-000000001299
+-----
+afterDeployment:Remove1Focus-isReact
++++++
+
+.....
+Homeland Defender
+-----
+ff4fb461-8060-457a-9c16-000000001300
+-----
+afterDeployment:Remove1Focus-isReact
++++++
+
+.....
+Forest Awareness
+-----
+ff4fb461-8060-457a-9c16-000000001301
+-----
+Placement:Jedi_or_Ewok
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001302
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Strike Team Assemble
+-----
+ff4fb461-8060-457a-9c16-000000001303
+-----
+
++++++
+
+.....
+Major Bren Derlin
+-----
+ff4fb461-8060-457a-9c16-000000001304
+-----
+whileInPlay:Put1TIE Attack Squadron:BD-foreachResolveFate-byMe-onlyOnce-ifOrigParticipating||afterEngagement:Remove999TIE Attack Squadron:UD-isSilent$$Remove999Activation-isSilent
++++++
+
+.....
+Strike Team Specialist
+-----
+ff4fb461-8060-457a-9c16-000000001305
+-----
+
++++++
+
+.....
+Natural Cover
+-----
+ff4fb461-8060-457a-9c16-000000001306
+-----
++++++
+R0:Put1Focus-isCost$$Remove1Damage-Targeted-atCharacter_or_Objective-targetAllied
+
+.....
+Scouting Ahead
+-----
+ff4fb461-8060-457a-9c16-000000001307
+-----
+
++++++
+
+.....
+Battle of Endor
+-----
+ff4fb461-8060-457a-9c16-000000001308
+-----
+onResolveFate:RequestInt-Max3-Msg{How many Endor objectives and enhancements do you control? Max 3}$$CreateDummy-nonUnique-isSilent||whileInPlay:Edge1Bonus-perX-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Maw of Madness
+-----
+ff4fb461-8060-457a-9c16-000000001309
+-----
+onPlay:Discard1Card-ofAllOpponents-isRandom-ifHaventForce-isReact$$Discard1Card-ofAllOpponents-isRandom-ifHaveForce-isReact
++++++
+
+.....
+Maw
+-----
+ff4fb461-8060-457a-9c16-000000001310
+-----
+ConstantEffect:Edge1Bonus||onStrike:Discard1Card-ofAllOpponents-isRandom-isReact$$TakeoverTarget-AutoTargeted-atEnhancement-fromDiscardOpponents-onTop1Cards
++++++
+
+.....
+Fallen Jedi
+-----
+ff4fb461-8060-457a-9c16-000000001311
+-----
+whileInPlay:IncreaseUD:1-forMe-typeCharacter-isParticipating-ifOrigParticipating-ifOrigHasntMarker{Focus}
++++++
+
+.....
+Expendable Scout
+-----
+ff4fb461-8060-457a-9c16-000000001312
+-----
++++++
+R0:SacrificeMyself$$SimplyAnnounce{Choose 1 player to discard 1 card from their hand and then draw 1 card from their command deck}
+
+.....
+Juyo Training
+-----
+ff4fb461-8060-457a-9c16-000000001313
+-----
+Placement:Force User
++++++
+
+.....
+Force Pull
+-----
+ff4fb461-8060-457a-9c16-000000001314
+-----
+onPlay:SimplyAnnounce{Put an enhancement from an opponent's discard pile into play under your control, enhancing an eligible card or game element.} 
++++++
+
+.....
+Protect the Generator
+-----
+ff4fb461-8060-457a-9c16-000000001315
+-----
+
++++++
+
+.....
+Colonel Dyer
+-----
+ff4fb461-8060-457a-9c16-000000001316
+-----
+
++++++
+
+.....
+Endor AT-ST
+-----
+ff4fb461-8060-457a-9c16-000000001317
+-----
++++++
+R0:Remove1Focus
+
+.....
+Endor AT-ST
+-----
+ff4fb461-8060-457a-9c16-000000001318
+-----
++++++
+R0:Remove1Focus
+
+.....
+Endor Command Post
+-----
+ff4fb461-8060-457a-9c16-000000001319
+-----
++++++
+R0:Remove1Focus
+
+.....
+Promotion
+-----
+ff4fb461-8060-457a-9c16-000000001320
+-----
+Placement:Imperial Navy_and_Officer
++++++
+
+.....
+Hunter for Hire
+-----
+ff4fb461-8060-457a-9c16-000000001321
+-----
+
++++++
+
+.....
+Bane Malar
+-----
+ff4fb461-8060-457a-9c16-000000001322
+-----
+
++++++
+
+.....
+Lannik Lackey
+-----
+ff4fb461-8060-457a-9c16-000000001323
+-----
+
++++++
+
+.....
+Lannik Lackey
+-----
+ff4fb461-8060-457a-9c16-000000001324
+-----
+
++++++
+
+.....
+Abandoned Hideout
+-----
+ff4fb461-8060-457a-9c16-000000001325
+-----
++++++
+R1:UncommitTarget-Targeted-atUnit-isCommited$$CommitTarget-Targeted-atUnit-isNotCommited
+
+.....
+Echoes of the Force
+-----
+ff4fb461-8060-457a-9c16-000000001326
+-----
+onResolveFate:CommitTarget-Targeted-atUnit-isNotCommited||UncommitTarget-Targeted-atUnit-isCommited
 +++++
 
 .....

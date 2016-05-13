@@ -1,6 +1,6 @@
 =====Message of the Day======
 
-So Be It is now available.
+Press the Attack is now available.
 
 Current known issues:
 -Capturing at missions not currently working

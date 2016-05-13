@@ -246,7 +246,7 @@
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />
 		</card>
-		<card id="ff4fb461-8060-457a-9c16-000000001273" name="The Tree Tribes" size="ObjectiveSize">
+		<card id="ff4fb461-8060-457a-9c16-000000001273" name="Tribe of the Trees" size="ObjectiveSize">
 			<property name="Cost" value="0" />
 			<property name="Type" value="Objective" />
 			<property name="Force" value="0" />

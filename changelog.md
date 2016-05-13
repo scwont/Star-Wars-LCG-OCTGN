@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.25.0.x
+
+Press the Attack has been added
+
 ### 2.24.0.x
 
 So Be It has been added

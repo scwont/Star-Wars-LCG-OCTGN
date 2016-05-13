@@ -150,7 +150,7 @@
 			<property name="Cost" value="3" />
 			<property name="Type" value="Unit" />
 			<property name="Force" value="3" />
-			<property name="Combat Icons" value="UD:2, BD:0, T:0, EE-UD:1, EE-BD:0, EE-T:0" />
+			<property name="Combat Icons" value="UD:2, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
 			<property name="Traits" value="Character-Leader-Trooper-Unique" />
 			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
@@ -426,7 +426,7 @@
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />
 		</card>
-		<card id="ff4fb461-8060-457a-9c16-000000001317" name="Endor AT-ST">
+		<card id="ff4fb461-8060-457a-9c16-000000001318" name="Endor AT-ST">
 			<property name="Cost" value="2" />
 			<property name="Type" value="Unit" />
 			<property name="Force" value="2" />
@@ -478,7 +478,7 @@
 			<property name="Text" value="Enhance an [Imperial Navy] Officer unit.&#xD;&#xA;Reaction: After an [Imperial Navy] unit other than enhanced unit is focused to strike, focus this enhancement to have the striking unit gain enhanced unit&#39;s combat icons until the end of the strike." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
-			<property name="Affiliation" value="Neutral" />
+			<property name="Affiliation" value="Imperial Navy" />
 			<property name="Block" value="210" />
 			<property name="Block Number" value="6" />
 			<property name="Number" value="1024" />
@@ -573,7 +573,7 @@
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
 			<property name="Traits" value="Location" />
 			<property name="Damage Capacity" value="0" />
-			<property name="Resources" value="2" />
+			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="Enhance your play area.&#xD;&#xA;Action: Focus this enhancement to move a Force card from a unit to another unit controlled by the same player." />
 			<property name="Flavor" value="" />

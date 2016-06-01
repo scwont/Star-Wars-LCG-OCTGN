@@ -1,6 +1,9 @@
 =====Message of the Day======
 
-Press the Attack is now available.
+Special thanks to R2Deakin for adding scripts for Endor Han and Secret Objective fate cards 
+to disengage the current objective and ask which eligible target (objectives and mission if available)
+to move the engagement to. It currently includes the engaged objective; work is ongoing to not include
+the currently engaged objective in the eligible target list.
 
 Current known issues:
 -Capturing at missions not currently working

@@ -732,7 +732,7 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             return
          else:
             currentTarget = Card(num(EngagedObjective))
-         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.controller in fetchAllOpponents()]
+         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission') and c.controller in fetchAllOpponents()]
          choice = SingleChoice("Which objective would you like to move this engagement to?", makeChoiceListfromCardList(cardList))
          currentTarget.highlight = None
          cardList[choice].highlight = DefendColor
@@ -746,7 +746,7 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             return
          else:
             currentTarget = Card(num(EngagedObjective))
-         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.controller in fetchAllOpponents()]
+         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission') and c.controller in fetchAllOpponents()]
          choice = SingleChoice("Which objective would you like to move this engagement to?", makeChoiceListfromCardList(cardList))
          currentTarget.highlight = None
          cardList[choice].highlight = DefendColor

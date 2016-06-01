@@ -1906,5 +1906,11 @@ def switchPLPos(group = table,x = 0,y = 0):
    if posChoice == 4: 
       myAllies = [me,me,me]
       MPxOffset = -600 * playerside
-   
+
+def addC(cardModel,count = 1): # Quick function to add custom cards to your hand depending on their GUID
+# Use the following to spawn a card
+# remoteCall(me,'addC',['<cardGUID>'])
+   card = table.create(cardModel, 0,0, count, True)
+   returnToHand(card,0,0,True,False)
+#   if card.Type == 'ICE' or card.Type == 'Agenda' or card.Type == 'Asset': card.isFaceUp = False   	  
    

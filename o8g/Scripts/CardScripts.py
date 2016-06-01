@@ -9006,7 +9006,7 @@ Han Solo
 -----
 ff4fb461-8060-457a-9c16-000000001166
 -----
-
+onStrike:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9028,7 +9028,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001169
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9076,7 +9076,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001175
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9124,7 +9124,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001181
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9220,7 +9220,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001193
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9409,7 +9409,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001217
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -9826,7 +9826,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001271
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....
@@ -10018,7 +10018,7 @@ Secret Objective
 -----
 ff4fb461-8060-457a-9c16-000000001295
 -----
-
+onResolveFate:CustomScript-notHARDCOREenough
 +++++
 
 .....

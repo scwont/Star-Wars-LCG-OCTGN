@@ -723,7 +723,35 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
       else:  card.moveToTable(0,-cheight(card))
       card.setController(findOpponent())
       debugNotify("About to whisper") # Debug
-      whisper(":::IMPORTANT::: Please make sure that the controller for this card is always the Light Side player")			
+      whisper(":::IMPORTANT::: Please make sure that the controller for this card is always the Light Side player")	
+   elif card.model == 'ff4fb461-8060-457a-9c16-000000001166' and action == 'STRIKE': # Han Solo B185/2
+      if confirm("Do you want to change the target of this engagment with Han's ability?"):
+         EngagedObjective = getGlobalVariable('Engaged Objective')
+         if EngagedObjective == 'None': 
+            whisper(":::Error::: No Engagement Currently ongoing")
+            return
+         else:
+            currentTarget = Card(num(EngagedObjective))
+         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.controller in fetchAllOpponents()]
+         choice = SingleChoice("Which objective would you like to move this engagement to?", makeChoiceListfromCardList(cardList))
+         currentTarget.highlight = None
+         cardList[choice].highlight = DefendColor
+         setGlobalVariable('Engaged Objective',str(cardList[choice]._id))
+         notify("{} activates {} and moves the engagement to {}".format(me,card,cardList[choice]))
+   elif card.name == 'Secret Objective' and action == 'RESOLVEFATE':
+      if confirm("Do you want to change the target of this engagment with Secret Objective?"):
+         EngagedObjective = getGlobalVariable('Engaged Objective')
+         if EngagedObjective == 'None': 
+            whisper(":::Error::: No Engagement Currently ongoing")
+            return
+         else:
+            currentTarget = Card(num(EngagedObjective))
+         cardList = [c for c in table if (c.Type == 'Objective' or c.Type == 'Mission' or re.search(r'EngagedAsObjective',CardsAS.get(c.model,''))) and c.controller in fetchAllOpponents()]
+         choice = SingleChoice("Which objective would you like to move this engagement to?", makeChoiceListfromCardList(cardList))
+         currentTarget.highlight = None
+         cardList[choice].highlight = DefendColor
+         setGlobalVariable('Engaged Objective',str(cardList[choice]._id))
+         notify("{} activates {} and moves the engagement to {}".format(me,card,cardList[choice]))
    else: notify("{} uses {}'s ability".format(me,card)) # Just a catch-all.
 def chkLookupRestrictions(card,lookup,origin_card):
    debugNotify(">>> chkLookupRestrictions()") # Debug

@@ -4175,7 +4175,7 @@
          <property name="Damage Capacity" value="0" />
          <property name="Resources" value="0" />
          <property name="Edge Priority" value="2" />
-         <property name="Text" value="" />
+         <property name="Text" value="Cancel this edge battle and the card effects of all other fate cards just revealed. Discard both edge stacks and start a new edge battle." />
          <property name="Flavor" value="" />
          <property name="Side" value="Dark" />
          <property name="Affiliation" value="Neutral" />

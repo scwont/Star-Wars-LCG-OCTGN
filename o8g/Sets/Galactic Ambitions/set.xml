@@ -1097,7 +1097,7 @@
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="" />
 			<property name="Flavor" value="" />
-			<property name="Side" value="Dark" />
+			<property name="Side" value="Light" />
 			<property name="Affiliation" value="Rebel Alliance" />
 			<property name="Block" value="226" />
 			<property name="Block Number" value="1" />

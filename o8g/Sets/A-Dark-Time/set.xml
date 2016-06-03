@@ -195,7 +195,7 @@
 		<property name="Damage Capacity" value="2" />
 		<property name="Resources" value="0" />
 		<property name="Edge Priority" value="" />
-		<property name="Text" value="While the Balance of the Force is with the light side, this unit gains [Blast Damage][Blast Damage]" />
+		<property name="Text" value="While the Balance of the Force is with the light side, this unit gains [Blast Damage][Blast Damage]." />
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />
 		<property name="Affiliation" value="Neutral" />

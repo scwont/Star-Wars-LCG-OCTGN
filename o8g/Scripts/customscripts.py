@@ -752,6 +752,20 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
          cardList[choice].highlight = DefendColor
          setGlobalVariable('Engaged Objective',str(cardList[choice]._id))
          notify("{} activates {} and moves the engagement to {}".format(me,card,cardList[choice]))
+   elif card.name == 'Entrenched Defense' and action == 'USE':
+      EngagedObjective = getGlobalVariable('Engaged Objective')
+      if EngagedObjective == 'None': 
+         whisper(":::Error::: No Engagement Currently ongoing")
+         return
+      else:
+         currentTarget = Card(num(EngagedObjective))     
+         if currentTarget.controller != me or currentTarget == card:
+            whisper(":::Error::: Current engagement not at another one of your objectives.")
+            return
+      currentTarget.highlight = None
+      card.highlight = DefendColor
+      setGlobalVariable('Engaged Objective',str(card._id))
+      notify("{} activates {} and moves the engagement to it".format(me,card))	 
    else: notify("{} uses {}'s ability".format(me,card)) # Just a catch-all.
 def chkLookupRestrictions(card,lookup,origin_card):
    debugNotify(">>> chkLookupRestrictions()") # Debug

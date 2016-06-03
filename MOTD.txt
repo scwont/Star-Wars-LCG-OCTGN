@@ -1,5 +1,42 @@
 =====Message of the Day======
 
+Galactic Ambitions now available. All previously scripted cards are scripted.
+The following cards have untested scripts:
+Vader's Meditation Chamber
+Telekinetic Strike
+Visage of the Dark Lord
+The Inquisitor (double click to draw card; player responsible for when to trigger/use)
+Inquisitor's Lightsaber (just provides bonus Unit Damage)
+Hunted
+Emperor Palpatine
+Force Manipulation (just destroys targeted commited unit; player responsible for when to trigger/use)
+Backstabber
+Black Squadron
+Come With Me
+Hunters of the Jedi
+4-Lom (must have card to capture targeted prior to triggering reaction)
+Entrenched Defense (double click card after engagement is declared to move engagement;
+does not highlight for reaction)
+Early Warning System
+Fleet Repairs (must have card targeted prior to triggering)
+Hope of Rebellion
+Operations Planner (player responsible for only triggering reaction on objective with captured cards)
+Rousing Speech
+Planning the Attack
+Rebel Tactician
+Mon Mothma
+Concussion Rifle
+The Alliance's Elite
+Rogue Squadron (double click to draw card; player responsible for when to trigger/use)
+R3-A2
+Kill Marker
+Corellian Slip (must have card targeted prior to triggering)
+MC40a (double click to trigger; must have shielded card targeted prior to triggering)
+Concentrated Firepower (must have shielded card targeted prior to triggering)
+Spark of Rebellion
+Kanan's Concentration
+Momaw Nadon
+
 Special thanks to R2Deakin for adding scripts for Endor Han and Secret Objective fate cards 
 to disengage the current objective and ask which eligible target (objectives and mission if available)
 to move the engagement to. It currently includes the engaged objective; work is ongoing to not include

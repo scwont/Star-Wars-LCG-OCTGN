@@ -10270,6 +10270,643 @@ onResolveFate:CommitTarget-Targeted-atUnit-isNotCommited||UncommitTarget-Targete
 +++++
 
 .....
+Dark Lord of the Sith
+-----
+ff4fb461-8060-457a-9c16-000000001345
+-----
++++++
+
+.....
+Darth Vader
+-----
+ff4fb461-8060-457a-9c16-000000001346
+-----
++++++
+
+.....
+Sith Warrior
+-----
+ff4fb461-8060-457a-9c16-000000001347
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
++++++
+
+.....
+Vader's Meditation Chamber
+-----
+ff4fb461-8060-457a-9c16-000000001348
+-----
+onPay:Reduce1CostPlay-perEveryCard-AutoTargeted-atForce User_or_Force Sensitive-targetMine-maxReduce1
++++++
+
+.....
+Telekinetic Strike
+-----
+ff4fb461-8060-457a-9c16-000000001349
+-----
+onPlay:Put1Focus-DemiAutoTargeted-atUnit-targetMine&&Put1Focus-DemiAutoTargeted-atCharacter_or_Creature-targetOpponents-choose1-ifHaventForce&&Put2Focus-DemiAutoTargeted-atCharacter_or_Creature-targetOpponents-choose1-ifHaveForce
++++++
+
+.....
+Visage of the Dark Lord
+-----
+ff4fb461-8060-457a-9c16-000000001350
+-----
+onResolveFate:Put1Focus-perEverySith_and_Unique-isParticipating-max1-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1
++++++
+
+.....
+Encounter at Stygeon Prime
+-----
+ff4fb461-8060-457a-9c16-000000001351
+-----
++++++
+
+.....
+The Inquisitor
+-----
+ff4fb461-8060-457a-9c16-000000001352
+-----
++++++
+R0:Draw1Card-onlyOnce
+
+.....
+Stygeon Prison Guard
+-----
+ff4fb461-8060-457a-9c16-000000001353
+-----
+onStrike:SimplyAnnounce{force the Light Side to place 1 focus on a ready unit they control.}
++++++
+
+.....
+The Inquisitor's Lightsaber
+-----
+ff4fb461-8060-457a-9c16-000000001354
+-----
+Placement:Force User_or_Force Sensitive||BonusIcons:UD:1
++++++
+
+.....
+Hunted
+-----
+ff4fb461-8060-457a-9c16-000000001355
+-----
+Placement:Unit-targetOpponents||onHostMarkerAddDamage:Put1Focus-AutoTargeted-onHost-isReact
++++++
+
+.....
+Bones of a Fallen Master
+-----
+ff4fb461-8060-457a-9c16-000000001356
+-----
+Placement:Objective-targetMine
++++++
+
+.....
+Power of the Dark Side
+-----
+ff4fb461-8060-457a-9c16-000000001357
+-----
++++++
+
+.....
+Emperor Palpatine
+-----
+ff4fb461-8060-457a-9c16-000000001358
+-----
+whileInPlay:Remove2Focus-DemiAutoTargeted-atForce User_or_Force Sensitive-targetMine-choose1-foreachForceStruggleDark-ifOrigCommited-isReact
++++++
+
+.....
+Royal Guard Champion
+-----
+ff4fb461-8060-457a-9c16-000000001359
+-----
+ConstantEffect:Edge1Bonus
++++++
+
+.....
+Sith Library
+-----
+ff4fb461-8060-457a-9c16-000000001360
+-----
++++++
+
+.....
+Force Manipulation
+-----
+ff4fb461-8060-457a-9c16-000000001361
+-----
+onPlay:DestroyTarget-Targeted-atUnit-isCommited
++++++
+
+.....
+Echoes of the Force
+-----
+ff4fb461-8060-457a-9c16-000000001362
+-----
+onResolveFate:CommitTarget-Targeted-atUnit-isNotCommited||UncommitTarget-Targeted-atUnit-isCommited
++++++
+
+.....
+Dark Defenders
+-----
+ff4fb461-8060-457a-9c16-000000001363
+-----
++++++
+
+.....
+"Backstabber"
+-----
+ff4fb461-8060-457a-9c16-000000001364
+-----
+onPlay:Put1Focus-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1-onlyDuringEngagement-isReact||DeployAllowance:Conflict
++++++
+
+.....
+Black Squadron
+-----
+ff4fb461-8060-457a-9c16-000000001365
+-----
+onPay:Reduce1CostPlay-perEveryCard-AutoTargeted-atBlack Squadron-targetMine-maxReduce3
++++++
+
+.....
+Black Squadron Pilot
+-----
+ff4fb461-8060-457a-9c16-000000001366
+-----
+onPlay:CustomScript||BonusIcons:UD:1, BD:1
++++++
+
+.....
+Come With Me
+-----
+ff4fb461-8060-457a-9c16-000000001367
+-----
+onPlay:Retrieve1Card-grabBlack Squadron$$ShuffleDeck
++++++
+
+.....
+Seeds of Decay
+-----
+ff4fb461-8060-457a-9c16-000000001368
+-----
+onResolveFate:Put1Focus-DemiAutoTargeted-atUnit-isCommited-hasntMarker{Focus}-choose1
++++++
+
+.....
+Hunters of the Jedi
+-----
+ff4fb461-8060-457a-9c16-000000001369
+-----
+whileInPlay:BringToPlayTarget-DemiAutoTargeted-atUnit_and_Sithspawn-fromHand-choose1-foreachCardLeavingPlay-typeForce User_or_Force Sensitive-onlyOnce-isReact
++++++
+
+.....
+Terentatek
+-----
+ff4fb461-8060-457a-9c16-000000001370
+-----
++++++
+
+.....
+Terentatek
+-----
+ff4fb461-8060-457a-9c16-000000001371
+-----
++++++
+
+.....
+Tuk'ata
+-----
+ff4fb461-8060-457a-9c16-000000001372
+-----
++++++
+
+.....
+Tuk'ata
+-----
+ff4fb461-8060-457a-9c16-000000001373
+-----
++++++
+
+.....
+Valley of the Dark Lords
+-----
+ff4fb461-8060-457a-9c16-000000001374
+-----
++++++
+
+.....
+Out of the Mists
+-----
+ff4fb461-8060-457a-9c16-000000001375
+-----
++++++
+
+.....
+Zuckuss
+-----
+ff4fb461-8060-457a-9c16-000000001376
+-----
++++++
+
+.....
+4-LOM
+-----
+ff4fb461-8060-457a-9c16-000000001377
+-----
+onStrike:CaptureTarget-Targeted-atUnit-targetOpponents-ifOrigAttacking-isReact
++++++
+
+.....
+Seedy Cantina
+-----
+ff4fb461-8060-457a-9c16-000000001378
+-----
++++++
+
+.....
+Crisis of Identity
+-----
+ff4fb461-8060-457a-9c16-000000001379
+-----
++++++
+
+.....
+A Quick Hunt
+-----
+ff4fb461-8060-457a-9c16-000000001380
+-----
++++++
+
+.....
+Entrenched Defense
+-----
+ff4fb461-8060-457a-9c16-000000001381
+-----
++++++
+R0:CustomScript-isReact-onlyOnce
+
+.....
+Golan-II Defense Platform
+-----
+ff4fb461-8060-457a-9c16-000000001382
+-----
++++++
+
+.....
+Golan-II Defense Platform
+-----
+ff4fb461-8060-457a-9c16-000000001383
+-----
++++++
+
+.....
+Early Warning System
+-----
+ff4fb461-8060-457a-9c16-000000001384
+-----
+atTurnStart:Remove1Focus-DemiAutoTargeted-atVehicle-hasMarker{Focus}-targetMine-choose1-duringOpponentTurn-isReact
++++++
+
+.....
+Fleet Repairs
+-----
+ff4fb461-8060-457a-9c16-000000001385
+-----
+onPlay:Remove999Damage-Targeted-atVehicle
++++++
+
+.....
+Heat of Battle
+-----
+ff4fb461-8060-457a-9c16-000000001386
+-----
+onResolveFate:Deal1Damage-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1
++++++
+
+.....
+Hope of Rebellion
+-----
+ff4fb461-8060-457a-9c16-000000001387
+-----
+whileInPlay:BringToPlayTarget-DemiAutoTargeted-atUnit-hasProperty{Cost}le2-fromHand-choose1-foreachCardLeavingPlay-typeLeader-onlyOnce-isReact
++++++
+
+.....
+Leia Organa
+-----
+ff4fb461-8060-457a-9c16-000000001388
+-----
++++++
+
+.....
+Operations Planner
+-----
+ff4fb461-8060-457a-9c16-000000001389
+-----
+onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact||onLeaving:CaptureMyself
++++++
+
+.....
+Operations Planner
+-----
+ff4fb461-8060-457a-9c16-000000001390
+-----
+onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact||onLeaving:CaptureMyself
++++++
+
+.....
+Rousing Speech
+-----
+ff4fb461-8060-457a-9c16-000000001391
+-----
+onPlay:CreateDummy-nonUnique||whileInPlay:IncreaseUD:1-forMe-typeCharacter-isParticipating-onlyforDummy||afterEngagement:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+The Rebels' Hope
+-----
+ff4fb461-8060-457a-9c16-000000001392
+-----
++++++
+
+.....
+Planning the Attack
+-----
+ff4fb461-8060-457a-9c16-000000001393
+-----
+onPlay:Gain1Reserves||onDamage:Lose1Reserves||onHeal:Gain1Reserves||onThwart:Lose1Reserves-ifOrigHasntMarker{Damage}
++++++
+
+.....
+General Jan Dodonna
+-----
+ff4fb461-8060-457a-9c16-000000001394
+-----
++++++
+
+.....
+Rebel Tactician
+-----
+ff4fb461-8060-457a-9c16-000000001395
+-----
+ExtraIcon:UD:1-perEveryCard-AutoTargeted-atLeader-isParticipating-targetMine-max1||ExtraIcon:EE-BD:1-perEveryCard-AutoTargeted-atLeader-isParticipating-targetMine-max1
++++++
+
+.....
+Rebel Tactician
+-----
+ff4fb461-8060-457a-9c16-000000001396
+-----
+ExtraIcon:UD:1-perEveryCard-AutoTargeted-atLeader-isParticipating-targetMine-max1||ExtraIcon:EE-BD:1-perEveryCard-AutoTargeted-atLeader-isParticipating-targetMine-max1
++++++
+
+.....
+Massassi Temple War Room
+-----
+ff4fb461-8060-457a-9c16-000000001397
+-----
++++++
+
+.....
+Twist of Fate
+-----
+ff4fb461-8060-457a-9c16-000000001398
+-----
+onResolveFate:CustomScript
++++++
+
+.....
+Mission to Talay
+-----
+ff4fb461-8060-457a-9c16-000000001399
+-----
++++++
+
+.....
+Mon Mothma
+-----
+ff4fb461-8060-457a-9c16-000000001400
+-----
+whileInPlay:Reduce1CostPlay-affectsUnit_and_Rebel Alliance-ifOrigCommited-onlyOnce
++++++
+
+.....
+Kyle Katarn
+-----
+ff4fb461-8060-457a-9c16-000000001401
+-----
++++++
+
+.....
+Inspiring Presence
+-----
+ff4fb461-8060-457a-9c16-000000001402
+-----
+Placement:Unit_and_Leader
++++++
+
+.....
+Concussion Rifle
+-----
+ff4fb461-8060-457a-9c16-000000001403
+-----
+Placement:Character||onHostStrike:Put1Focus-isCost-isReact$$Put1Damage-DemiAutoTargeted-atUnit-hasntMarker{Focus}-targetOpponents-choose1
++++++
+
+.....
+Rebel for Hire
+-----
+ff4fb461-8060-457a-9c16-000000001404
+-----
++++++
+
+.....
+The Alliance's Elite
+-----
+ff4fb461-8060-457a-9c16-000000001405
+-----
+afterRefresh:Remove1Focus-DemiAutoTargeted-atFighter_or_Speeder-hasMarker{Focus}-targetMine-choose1-isReact
++++++
+
+.....
+Rogue Squadron
+-----
+ff4fb461-8060-457a-9c16-000000001406
+-----
++++++
+R0:Draw1Card-onlyOnce
+
+.....
+Alliance X-Wing
+-----
+ff4fb461-8060-457a-9c16-000000001407
+-----
++++++
+
+.....
+R3-A2
+-----
+ff4fb461-8060-457a-9c16-000000001408
+-----
+Placement:Fighter||onHostStrike:Put1Focus-isCost-isReact$$Put1Focus-DemiAutoTargeted-atUnit-targetOpponents-choose1
++++++
+
+.....
+Kill Marker
+-----
+ff4fb461-8060-457a-9c16-000000001409
+-----
+Placement:Fighter_or_Speeder||ConstantEffect:Edge1Bonus-ifOrigParticipatingHost
++++++
+
+.....
+Corellian Slip
+-----
+ff4fb461-8060-457a-9c16-000000001410
+-----
+onPlay:Put1Focus-Targeted-atVehicle
++++++
+
+.....
+Capital Cover
+-----
+ff4fb461-8060-457a-9c16-000000001411
+-----
++++++
+
+.....
+Defiance
+-----
+ff4fb461-8060-457a-9c16-000000001412
+-----
++++++
+
+.....
+MC40a Light Cruiser
+-----
+ff4fb461-8060-457a-9c16-000000001413
+-----
++++++
+R0:Remove1Shield-Targeted-atUnit_or_Objective_or_Mission-hasMarker{Shield}-onlyOnce-isCost$$Put1Shield
+
+.....
+MC30c Frigate
+-----
+ff4fb461-8060-457a-9c16-000000001414
+-----
++++++
+
+.....
+Concentrated Firepower
+-----
+ff4fb461-8060-457a-9c16-000000001415
+-----
+onPlay:Remove1Shield-Targeted-atCapital Ship&&Put2Crossfire:UD-Targeted-atCapital Ship&&Put2Crossfire:BD-Targeted-atCapital Ship
++++++
+
+.....
+Protection
+-----
+ff4fb461-8060-457a-9c16-000000001416
+-----
+onResolveFate:Put1Shield-Targeted-atUnit_or_Objective
++++++
+
+.....
+Spark of Rebellion
+-----
+ff4fb461-8060-457a-9c16-000000001417
+-----
++++++
+R0:Retrieve1Card-grabCharacter-hasProperty{Cost}le2-toTable-onTop1Cards-tellPlayer-isReact-onlyOnce||Retrieve1Card-grabUnit_and_Specter-toTable-onTop1Cards-tellPlayer-isReact-onlyOnce
+
+.....
+Kanan Jarrus
+-----
+ff4fb461-8060-457a-9c16-000000001418
+-----
++++++
+
+.....
+Children of the Force
+-----
+ff4fb461-8060-457a-9c16-000000001419
+-----
++++++
+R0:SimplyAnnounce{looks at top card of their deck}-onlyOnce
+
+.....
+Children of the Force
+-----
+ff4fb461-8060-457a-9c16-000000001420
+-----
++++++
+R0:SimplyAnnounce{looks at top card of their deck}-onlyOnce
+
+.....
+Kanan's Concentration
+-----
+ff4fb461-8060-457a-9c16-000000001421
+-----
+onPlay:Remove1Focus-Targeted-atCharacter
++++++
+
+.....
+Target of Opportunity
+-----
+ff4fb461-8060-457a-9c16-000000001422
+-----
+onResolveFate:Deal1Damage-AutoTargeted-atObjective-isParticipating-ifOrigAttacking
++++++
+
+.....
+The Gardener's Secret
+-----
+ff4fb461-8060-457a-9c16-000000001423
+-----
++++++
+
+.....
+Momaw Nadon
+-----
+ff4fb461-8060-457a-9c16-000000001424
+-----
+onPlay:Retrieve1Card-grabEnhancement-toTable-isReact&&ShuffleDeck
++++++
+
+.....
+Ithorian Junk Dealer
+-----
+ff4fb461-8060-457a-9c16-000000001425
+-----
++++++
+
+.....
+Ithorian Junk Dealer
+-----
+ff4fb461-8060-457a-9c16-000000001426
+-----
++++++
+
+.....
+Hidden Grove
+-----
+ff4fb461-8060-457a-9c16-000000001427
+-----
++++++
+
+.....
+Hidden Grove
+-----
+ff4fb461-8060-457a-9c16-000000001428
+-----
++++++
+
+.....
 ENDSCRIPTS
 =====
 '''

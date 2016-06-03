@@ -71,7 +71,7 @@
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="1" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Executor-Location" />
+			<property name="Traits" value="Executor-Location-Unique" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
@@ -312,8 +312,8 @@
 			<property name="Force" value="0" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
 			<property name="Traits" value="Coruscant-Location" />
-			<property name="Damage Capacity" value="1" />
-			<property name="Resources" value="0" />
+			<property name="Damage Capacity" value="0" />
+			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.) " />
 			<property name="Flavor" value="" />
@@ -1051,7 +1051,7 @@
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Yavin 4-Location" />
+			<property name="Traits" value="Yavin 4-Location-Unique" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="2" />
 			<property name="Edge Priority" value="" />
@@ -1215,7 +1215,7 @@
 			<property name="Damage Capacity" value="5" />
 			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="After you refresh, remove 1 focus token from a target Fighter or Speeder unit you control." />
+			<property name="Text" value="Reaction: After you refresh, remove 1 focus token from a target Fighter or Speeder unit you control." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Light" />
 			<property name="Affiliation" value="Rebel Alliance" />
@@ -1271,7 +1271,7 @@
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Upgrade" />
+			<property name="Traits" value="Upgrade-Unique" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
@@ -1489,7 +1489,7 @@
 		<card id="ff4fb461-8060-457a-9c16-000000001419" name="Children of the Force">
 			<property name="Cost" value="2" />
 			<property name="Type" value="Unit" />
-			<property name="Force" value="2" />
+			<property name="Force" value="1" />
 			<property name="Combat Icons" value="UD:1, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
 			<property name="Traits" value="Character-Force Sensitive" />
 			<property name="Damage Capacity" value="2" />
@@ -1509,7 +1509,7 @@
 		<card id="ff4fb461-8060-457a-9c16-000000001420" name="Children of the Force">
 			<property name="Cost" value="2" />
 			<property name="Type" value="Unit" />
-			<property name="Force" value="2" />
+			<property name="Force" value="1" />
 			<property name="Combat Icons" value="UD:1, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
 			<property name="Traits" value="Character-Force Sensitive" />
 			<property name="Damage Capacity" value="2" />
@@ -1612,7 +1612,7 @@
 			<property name="Force" value="1" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:1, EE-BD:1, EE-T:0" />
 			<property name="Traits" value="Character-Civilian" />
-			<property name="Damage Capacity" value="4" />
+			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="Action: During the deployment phase, pay the printed cost of an enhancement in your discard pile to put it into play enhancing an eligible target. (Limit once per turn.)" />
@@ -1632,7 +1632,7 @@
 			<property name="Force" value="1" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:1, EE-BD:1, EE-T:0" />
 			<property name="Traits" value="Character-Civilian" />
-			<property name="Damage Capacity" value="4" />
+			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="Action: During the deployment phase, pay the printed cost of an enhancement in your discard pile to put it into play enhancing an eligible target. (Limit once per turn.)" />
@@ -1651,7 +1651,7 @@
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Trap" />
+			<property name="Traits" value="Tattooine-Location" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
@@ -1671,7 +1671,7 @@
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Trap" />
+			<property name="Traits" value="Tattooine-Location" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />

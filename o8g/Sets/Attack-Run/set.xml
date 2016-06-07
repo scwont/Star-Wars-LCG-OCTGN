@@ -391,7 +391,7 @@
 			<property name="Type" value="Unit" />
 			<property name="Force" value="4" />
 			<property name="Combat Icons" value="UD:2, BD:1, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
-			<property name="Traits" value="Character-Force User-Pilot-Unique" />
+			<property name="Traits" value="Character-Force User-Pilot-Black Squadron-Unique" />
 			<property name="Damage Capacity" value="4" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />

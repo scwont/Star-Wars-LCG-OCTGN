@@ -7098,7 +7098,7 @@ Baron Fel
 -----
 ff4fb461-8060-457a-9c16-000000000920
 -----
-onPlay:CustomScript||onPay:Reduce2CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce2||Edge1Bonus-AutoTargeted-atFighter-targetMine-isParticipating-ifHostFighter-isDistributedEffect
+onPlay:CustomScript||onPay:Reduce2CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce2
 +++++
 
 .....
@@ -10607,7 +10607,7 @@ Operations Planner
 -----
 ff4fb461-8060-457a-9c16-000000001389
 -----
-onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact||onLeaving:CaptureMyself
+onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact
 +++++
 
 .....
@@ -10615,7 +10615,7 @@ Operations Planner
 -----
 ff4fb461-8060-457a-9c16-000000001390
 -----
-onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact||onLeaving:CaptureMyself
+onPlay:Deal1Damage-Targeted-atObjective-targetOpponents-isReact
 +++++
 
 .....

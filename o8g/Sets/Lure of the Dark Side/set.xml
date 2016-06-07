@@ -335,7 +335,7 @@
   <property name="Damage Capacity" value="" />
   <property name="Resources" value="1" />
   <property name="Edge Priority" value="" />
-  <property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card each turn.)" />
+  <property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.)" />
   <property name="Flavor" value="" />
   <property name="Side" value="Dark" />
   <property name="Affiliation" value="Neutral" />

@@ -598,7 +598,7 @@
 			<property name="Text" value="For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
-			<property name="Affiliation" value="Imperial Navy" />
+			<property name="Affiliation" value="Neutral" />
 			<property name="Block" value="205" />
 			<property name="Block Number" value="6" />
 			<property name="Number" value="977" />

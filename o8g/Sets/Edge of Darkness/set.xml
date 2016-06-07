@@ -2195,7 +2195,7 @@
 		<property name="Damage Capacity" value="2" />
 		<property name="Resources" value="0" />
 		<property name="Edge Priority" value="" />
-		<property name="Text" value="While this unit is committed to the Force, its Force icons count toward teh Force struggle even if it is exhausted." />
+		<property name="Text" value="While this unit is committed to the Force, its Force icons count toward the Force struggle even if it is exhausted." />
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />
@@ -2215,7 +2215,7 @@
 		<property name="Damage Capacity" value="2" />
 		<property name="Resources" value="0" />
 		<property name="Edge Priority" value="" />
-		<property name="Text" value="While this unit is committed to the Force, its Force icons count toward teh Force struggle even if it is exhausted." />
+		<property name="Text" value="While this unit is committed to the Force, its Force icons count toward the Force struggle even if it is exhausted." />
 		<property name="Flavor" value="" />
 		<property name="Side" value="Dark" />
 		<property name="Affiliation" value="Sith" />

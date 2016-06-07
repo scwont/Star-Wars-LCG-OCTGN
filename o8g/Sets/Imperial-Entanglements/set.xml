@@ -1175,13 +1175,13 @@
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="2" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited." />
+			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
 			<property name="Affiliation" value="Imperial Navy" />
 			<property name="Block" value="180" />
 			<property name="Block Number" value="5" />
-			<property name="Number" value="024" />
+			<property name="Number" value="24" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />

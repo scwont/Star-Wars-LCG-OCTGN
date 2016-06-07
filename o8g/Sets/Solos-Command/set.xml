@@ -411,7 +411,7 @@
 			<property name="Type" value="Unit" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:2, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Droid-Assasin" />
+			<property name="Traits" value="Droid-Assassin" />
 			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />

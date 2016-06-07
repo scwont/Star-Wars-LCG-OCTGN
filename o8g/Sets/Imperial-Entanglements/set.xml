@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
-     name="Imperial Entanglements" 
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd"
+     name="Imperial Entanglements"
      id="2bf9ef67-90e2-429a-8e36-aab8f6a60b5b"
-     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3" 
-     gameVersion="2.0.0.0" 
+     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3"
+     gameVersion="2.0.0.0"
      version="2.0.0.0">
 	<cards>
 		<card id="ff4fb461-8060-457a-9c16-000000001081" name="House Edge" size="ObjectiveSize">
@@ -75,13 +75,13 @@
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited." />
+			<property name="Text" value="Enhance your play area.&#xD;&#xA;&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Light" />
 			<property name="Affiliation" value="Neutral" />
 			<property name="Block" value="171" />
 			<property name="Block Number" value="4" />
-			<property name="Number" value="022" />
+			<property name="Number" value="22" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />

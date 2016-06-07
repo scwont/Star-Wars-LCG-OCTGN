@@ -313,7 +313,7 @@
 			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
 			<property name="Traits" value="Coruscant-Location" />
 			<property name="Damage Capacity" value="1" />
-			<property name="Resources" value="0" />
+			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
 			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.) " />
 			<property name="Flavor" value="" />

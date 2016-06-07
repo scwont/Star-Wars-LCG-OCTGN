@@ -94,7 +94,7 @@
 		<property name="Traits" value="" />
 		<property name="Damage Capacity" value="0" />
 		<property name="Resources" value="0" />
-		<property name="Edge Priority" value="" />
+		<property name="Edge Priority" value="7" />
 		<property name="Text" value="You may deal 1 damage to or remove 1 damage from a target Hoth objective." />
 		<property name="Flavor" value="" />
 		<property name="Side" value="Light" />

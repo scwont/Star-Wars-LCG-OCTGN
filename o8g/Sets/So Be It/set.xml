@@ -214,7 +214,7 @@
 			<property name="Traits" value="" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
-			<property name="Edge Priority" value="8" />
+			<property name="Edge Priority" value="7" />
 			<property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Light" />

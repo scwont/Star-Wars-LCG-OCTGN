@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
-     name="Galactic Ambitions" 
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd"
+     name="Galactic Ambitions"
      id="592012bd-350c-4552-85c7-d060a62c6f59"
-     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3" 
-     gameVersion="2.0.0.0" 
+     gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3"
+     gameVersion="2.0.0.0"
      version="2.0.0.0">
 	<cards>
 		<card id="ff4fb461-8060-457a-9c16-000000001345" name="Dark Lord of the Sith" size="ObjectiveSize">
@@ -1541,7 +1541,7 @@
 			<property name="Affiliation" value="Jedi" />
 			<property name="Block" value="229" />
 			<property name="Block Number" value="5" />
-			<property name="Number" value="062" />
+			<property name="Number" value="1117" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />

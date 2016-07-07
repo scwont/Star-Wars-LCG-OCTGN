@@ -395,7 +395,7 @@
          <property name="Damage Capacity" value="1" />
          <property name="Resources" value="0" />
          <property name="Edge Priority" value="" />
-         <property name="Text" value="You may play this card on any Fighter unit you control as an enhancement with the text: &quot;Enhanced unit gains [Unit Damage][Blast Damage].&quot;" />
+         <property name="Text" value="This card may enter play as an enhancement on any Fighter unit you control, with the text: &#34;Enhanced unit gains [Unit Damage] [Blast Damage].&#34;" />
          <property name="Flavor" value="" />
          <property name="Side" value="Dark" />
          <property name="Affiliation" value="Neutral" />

@@ -214,7 +214,7 @@
 			<property name="Traits" value="" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
-			<property name="Edge Priority" value="8" />
+			<property name="Edge Priority" value="7" />
 			<property name="Text" value="If you are the attacking player, you may choose an enemy objective that you have not engaged this phase. If you do, you are now engaged with the chosen objective instead." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Light" />
@@ -578,7 +578,7 @@
 			<property name="Text" value="Enhance your play area.&#xD;&#xA;Limited. (You cannot play more than one limited card per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
-			<property name="Affiliation" value="Neutral" />
+			<property name="Affiliation" value="Imperial Navy" />
 			<property name="Block" value="205" />
 			<property name="Block Number" value="5" />
 			<property name="Number" value="024" />
@@ -598,7 +598,7 @@
 			<property name="Text" value="For this edge battle, this card gains +1 Force icon (to a maximum of +3) for each Endor objective or enhancement in play." />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
-			<property name="Affiliation" value="Imperial Navy" />
+			<property name="Affiliation" value="Neutral" />
 			<property name="Block" value="205" />
 			<property name="Block Number" value="6" />
 			<property name="Number" value="977" />
@@ -721,7 +721,7 @@
 			<property name="Affiliation" value="Scum and Villainy" />
 			<property name="Block" value="206" />
 			<property name="Block Number" value="6" />
-			<property name="Number" value="1" />
+			<property name="Number" value="1005" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />

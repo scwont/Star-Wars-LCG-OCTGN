@@ -10907,6 +10907,221 @@ ff4fb461-8060-457a-9c16-000000001428
 +++++
 
 .....
+A Hero's Duty
+-----
+ff4fb461-8060-457a-9c16-000000001429
+-----
++++++
+
+.....
+Luke Skywalker
+-----
+ff4fb461-8060-457a-9c16-000000001430
+-----
++++++
+
+.....
+I Will Not Fight You
+-----
+ff4fb461-8060-457a-9c16-000000001431
+-----
++++++
+
+.....
+Search Your Feelings
+-----
+ff4fb461-8060-457a-9c16-000000001432
+-----
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001433
+-----
+onResolveFate:CustomScript-ifOrigAttacking-notHARDCOREenough
++++++
+
+.....
+Redeem the Fallen
+-----
+ff4fb461-8060-457a-9c16-000000001434
+-----
++++++
+
+.....
+Engineering the Future
+-----
+ff4fb461-8060-457a-9c16-000000001435
+-----
++++++
+
+.....
+General Walex Blissex
+-----
+ff4fb461-8060-457a-9c16-000000001436
+-----
++++++
+
+.....
+Overworked Engineer
+-----
+ff4fb461-8060-457a-9c16-000000001437
+-----
++++++
+
+.....
+A-A5 Heavy Speeder Truck
+-----
+ff4fb461-8060-457a-9c16-000000001438
+-----
++++++
+
+.....
+Portable Shield Generator
+-----
+ff4fb461-8060-457a-9c16-000000001439
+-----
++++++
+
+.....
+Engineering Brilliance
+-----
+ff4fb461-8060-457a-9c16-000000001440
+-----
++++++
+
+.....
+Beyond the Rim
+-----
+ff4fb461-8060-457a-9c16-000000001441
+-----
++++++
+
+.....
+Pulsar Skate
+-----
+ff4fb461-8060-457a-9c16-000000001442
+-----
++++++
+
+.....
+Navigation Droid
+-----
+ff4fb461-8060-457a-9c16-000000001443
+-----
++++++
+R0:Remove1Damage-DemiAutoTargeted-atVehicle_and_Smugglers and Spies-hasMarker{Damage}-choose1-isCost$$Put1Damage
+
+.....
+Navigation Droid
+-----
+ff4fb461-8060-457a-9c16-000000001444
+-----
++++++
+R0:Remove1Damage-DemiAutoTargeted-atVehicle_and_Smugglers and Spies-hasMarker{Damage}-choose1-isCost$$Put1Damage
+
+.....
+Smuggler's Hideaway
+-----
+ff4fb461-8060-457a-9c16-000000001445
+-----
++++++
+
+.....
+Last Ditch Maneuver
+-----
+ff4fb461-8060-457a-9c16-000000001446
+-----
++++++
+
+.....
+The Emperor's Promise
+-----
+ff4fb461-8060-457a-9c16-000000001447
+-----
++++++
+
+.....
+Emperor Palpatine
+-----
+ff4fb461-8060-457a-9c16-000000001448
+-----
++++++
+
+.....
+Emperor's Royal Guard
+-----
+ff4fb461-8060-457a-9c16-000000001449
+-----
+R0:Remove1Damage-DemiAutoTargeted-atCharacter-hasMarker{Damage}-choose1-isCost$$Put1Damage
++++++
+
+.....
+ISB Officer
+-----
+ff4fb461-8060-457a-9c16-000000001450
+-----
++++++
+
+.....
+Secret Objective
+-----
+ff4fb461-8060-457a-9c16-000000001451
+-----
+onResolveFate:CustomScript-ifOrigAttacking-notHARDCOREenough
++++++
+
+.....
+Lure of the Dark Side
+-----
+ff4fb461-8060-457a-9c16-000000001452
+-----
++++++
+
+.....
+The Lady's Lesson
+-----
+ff4fb461-8060-457a-9c16-000000001453
+-----
++++++
+
+.....
+Lady Valarian
+-----
+ff4fb461-8060-457a-9c16-000000001454
+-----
++++++
+
+.....
+Whiphid Enforcer
+-----
+ff4fb461-8060-457a-9c16-000000001455
+-----
++++++
+
+.....
+Whiphid Enforcer
+-----
+ff4fb461-8060-457a-9c16-000000001456
+-----
++++++
+
+.....
+Unrefusable Offer
+-----
+ff4fb461-8060-457a-9c16-000000001457
+-----
++++++
+
+.....
+Vicious Counterattack
+-----
+ff4fb461-8060-457a-9c16-000000001458
+-----
++++++
+
+.....
 ENDSCRIPTS
 =====
 '''

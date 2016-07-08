@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd"
      name="Redemption and Return"
-     id="fcb44aba-7631-40ff-808a-ce3b9b2d5d75"
+     id="268b8dee-d11a-4461-8e39-7971db99154a"
      gameId="d5cf89e5-1984-4873-8ae0-f06eea411bb3"
      gameVersion="2.0.0.0"
      version="2.0.0.0">
@@ -101,7 +101,7 @@
 			<property name="Affiliation" value="Neutral" />
 			<property name="Block" value="212" />
 			<property name="Block Number" value="5" />
-			<property name="Number" value="909" />
+			<property name="Number" value="0909" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />
@@ -155,7 +155,7 @@
 			<property name="Damage Capacity" value="3" />
 			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="Action: Focus this unit to remove 1 damage from a [Rebel Alliance] objective. Then, place 1 shield on a [Rebel Alliance] unit or objective. (Limit once per turn.)" />
+			<property name="Text" value="Elite.&#xD;&#xA;Action: Focus this unit to remove 1 damage from a [Rebel Alliance] objective. Then, place 1 shield on a [Rebel Alliance] unit or objective. (Limit once per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Light" />
 			<property name="Affiliation" value="Rebel Alliance" />
@@ -267,7 +267,7 @@
 			<property name="AutoAction" value="" />
 		</card>
 		<card id="ff4fb461-8060-457a-9c16-000000001442" name="Pulsar Skate">
-			<property name="Cost" value="4" />
+			<property name="Cost" value="3" />
 			<property name="Type" value="Unit" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:2, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
@@ -421,7 +421,7 @@
 			<property name="Affiliation" value="Sith" />
 			<property name="Block" value="215" />
 			<property name="Block Number" value="3" />
-			<property name="Number" value="052" />
+			<property name="Number" value="0052" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />
@@ -461,7 +461,7 @@
 			<property name="Affiliation" value="Neutral" />
 			<property name="Block" value="215" />
 			<property name="Block Number" value="5" />
-			<property name="Number" value="919" />
+			<property name="Number" value="0919" />
 			<property name="Instructions" value="" />
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />

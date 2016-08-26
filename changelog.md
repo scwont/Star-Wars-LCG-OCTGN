@@ -1,5 +1,17 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.28.0.x
+
+Ancient Rivals has been added
+
+### 2.27.0.x
+
+Redemption and Return has been added
+
+### 2.26.0.x
+
+Galactic Ambitions has been added
+
 ### 2.25.0.x
 
 Press the Attack has been added

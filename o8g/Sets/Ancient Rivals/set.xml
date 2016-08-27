@@ -50,7 +50,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Unit" />
 			<property name="Force" value="1" />
-			<property name="Combat Icons" value="UD:1, BD:0, T:0, EE-UD:0, EE-BD:, EE-T:0" />
+			<property name="Combat Icons" value="UD:1, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
 			<property name="Traits" value="Character" />
 			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
@@ -70,7 +70,7 @@
 			<property name="Cost" value="1" />
 			<property name="Type" value="Enhancement" />
 			<property name="Force" value="1" />
-			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:1, EE-T:0" />
+			<property name="Combat Icons" value="UD:0, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
 			<property name="Traits" value="Weapon-Unique" />
 			<property name="Damage Capacity" value="0" />
 			<property name="Resources" value="0" />
@@ -291,7 +291,7 @@
 			<property name="Type" value="Unit" />
 			<property name="Force" value="2" />
 			<property name="Combat Icons" value="UD:3, BD:0, T:0, EE-UD:0, EE-BD:0, EE-T:0" />
-			<property name="Traits" value="Character-Wookie-Unique" />
+			<property name="Traits" value="Character-Wookiee-Unique" />
 			<property name="Damage Capacity" value="3" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
@@ -415,7 +415,7 @@
 			<property name="Damage Capacity" value="2" />
 			<property name="Resources" value="0" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="After you lose an edge battle, remove this unit from the engagement to remove a target [Jedi] or neutral unit from the engagement. (Limit once per turn.)" />
+			<property name="Text" value="Reaction: After you lose an edge battle, remove this unit from the engagement to remove a target [Jedi] or neutral unit from the engagement. (Limit once per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
 			<property name="Affiliation" value="Neutral" />
@@ -495,7 +495,7 @@
 			<property name="Damage Capacity" value="5" />
 			<property name="Resources" value="1" />
 			<property name="Edge Priority" value="" />
-			<property name="Text" value="Interrupt: When a [Scum and Villainy] objective you control with at least 1 captured card would be damage, prevent 1 point of that damage. (Limit once per turn.)" />
+			<property name="Text" value="Interrupt: When a [Scum and Villainy] objective you control with at least 1 captured card would be damaged, prevent 1 point of that damage. (Limit once per turn.)" />
 			<property name="Flavor" value="" />
 			<property name="Side" value="Dark" />
 			<property name="Affiliation" value="Scum and Villainy" />

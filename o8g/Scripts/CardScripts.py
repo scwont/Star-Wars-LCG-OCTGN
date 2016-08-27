@@ -11054,8 +11054,8 @@ Emperor's Royal Guard
 -----
 ff4fb461-8060-457a-9c16-000000001449
 -----
-R0:Remove1Damage-DemiAutoTargeted-atCharacter-hasMarker{Damage}-choose1-isCost$$Put1Damage
 +++++
+R0:Remove1Damage-DemiAutoTargeted-atCharacter-hasMarker{Damage}-choose1-isCost$$Put1Damage
 
 .....
 ISB Officer
@@ -11118,6 +11118,231 @@ ff4fb461-8060-457a-9c16-000000001457
 Vicious Counterattack
 -----
 ff4fb461-8060-457a-9c16-000000001458
+-----
++++++
+
+.....
+A New Beginning
+-----
+ff4fb461-8060-457a-9c16-000000001459
+-----
++++++
+
+.....
+Ahsoka Tano
+-----
+ff4fb461-8060-457a-9c16-000000001460
+-----
++++++
+
+.....
+Ahsoka's Informant
+-----
+ff4fb461-8060-457a-9c16-000000001461
+-----
++++++
+
+.....
+Ahsoka's Lightsabers
+-----
+ff4fb461-8060-457a-9c16-000000001462
+-----
+Placement:Force User_or_Force Sensitive||BonusIcons:UD:1, EE-BD:1
++++++
+
+.....
+Ancient Rivals
+-----
+ff4fb461-8060-457a-9c16-000000001463
+-----
++++++
+
+.....
+Ancient Rivals
+-----
+ff4fb461-8060-457a-9c16-000000001464
+-----
++++++
+
+.....
+Explosives Artist
+-----
+ff4fb461-8060-457a-9c16-000000001465
+-----
+onPlay:Retrieve1Card-grabSpecter-onTop10Cards-isReact$$ShuffleDeck
++++++
+
+.....
+Sabine Wren
+-----
+ff4fb461-8060-457a-9c16-000000001466
+-----
++++++
+
+.....
+Sabine's Armor
+-----
+ff4fb461-8060-457a-9c16-000000001467
+-----
+Placement:Character
++++++
+
+.....
+Custom Paint Job
+-----
+ff4fb461-8060-457a-9c16-000000001468
+-----
++++++
+
+.....
+Improvised Explosive
+-----
+ff4fb461-8060-457a-9c16-000000001469
+-----
+Placement:Objective
++++++
+R0:SacrificeMyself$$Deal1Damage-DemiAutoTargeted-atUnit-isAttacking-targetOpponents-isParticipating-choose2
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001470
+-----
++++++
+
+.....
+No Match for a Good Blaster
+-----
+ff4fb461-8060-457a-9c16-000000001471
+-----
+whileInPlay:Deal1Damage-AutoTargeted-atObjective-isCurrentObjective-onlyDuringEngagement-foreachCardLeavingPlay-typeUnit-byOpposingOriginController-isReact
++++++
+
+.....
+Han Solo
+-----
+ff4fb461-8060-457a-9c16-000000001472
+-----
+whileInPlay:IncreaseUD:1-forMe-typeUnit_and_Smugglers and Spies_and_notHan Solo
++++++
+
+.....
+Chewbacca
+-----
+ff4fb461-8060-457a-9c16-000000001473
+-----
++++++
+
+.....
+DL-44 Blaster Pistol
+-----
+ff4fb461-8060-457a-9c16-000000001474
+-----
+Placement:Character||BonusIcons:UD:1
++++++
+
+.....
+Don't Get Cocky
+-----
+ff4fb461-8060-457a-9c16-000000001475
+-----
+onPlay:Put2Cocky:BD-Targeted-atUnit-isParticipating
++++++
+
+.....
+Heat of Battle
+-----
+ff4fb461-8060-457a-9c16-000000001476
+-----
+onResolveFate:Deal1Damage-DemiAutoTargeted-atUnit-isParticipating-targetOpponents-choose1
++++++
+
+.....
+There is No Conflict
+-----
+ff4fb461-8060-457a-9c16-000000001477
+-----
++++++
+
+.....
+Darth Vader
+-----
+ff4fb461-8060-457a-9c16-000000001478
+-----
+whileInPlay:Deal1Damage-foreachResolveFate-byMe-DemiAutoTargeted-atUnit-targetOpponents-choose1-onlyOnce-isReact
++++++
+
+.....
+501st Commander
+-----
+ff4fb461-8060-457a-9c16-000000001479
+-----
+whileInPlay:DisengageMyself-foreachEdgeWin-ifOrigEdgeLoser-ifOrigParticipating-isReact$$DisengageTarget-DemiAutoTargeted-atUnit_and_Jedi_or_Unit_and_Neutral-targetOpponents-isParticipating-choose1
++++++
+
+.....
+Join Me
+-----
+ff4fb461-8060-457a-9c16-000000001480
+-----
+onPlay:TakeoverTarget-Targeted-atUnit_and_Character_and_nonUnique
++++++
+
+.....
+Ancient Rivals
+-----
+ff4fb461-8060-457a-9c16-000000001481
+-----
++++++
+
+.....
+Ancient Rivals
+-----
+ff4fb461-8060-457a-9c16-000000001482
+-----
++++++
+
+.....
+Heartless Tactics
+-----
+ff4fb461-8060-457a-9c16-000000001483
+-----
++++++
+
+.....
+Dengar
+-----
+ff4fb461-8060-457a-9c16-000000001484
+-----
++++++
+
+.....
+Security Operator
+-----
+ff4fb461-8060-457a-9c16-000000001485
+-----
++++++
+
+.....
+Fortified Holding Cells
+-----
+ff4fb461-8060-457a-9c16-000000001486
+-----
+Placement:Objective_and_Scum and Villainy
++++++
+
+.....
+Captured
+-----
+ff4fb461-8060-457a-9c16-000000001487
+-----
+onPlay:CaptureTarget-Targeted-atUnit
++++++
+
+.....
+Preparation and Planning
+-----
+ff4fb461-8060-457a-9c16-000000001488
 -----
 +++++
 

@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.29.0.x
+
+A Wretched Hive has been added
+
 ### 2.28.0.x
 
 Ancient Rivals has been added

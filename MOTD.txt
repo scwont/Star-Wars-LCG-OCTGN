@@ -1,6 +1,27 @@
 =====Message of the Day======
 
-Ancient Rivals is now available. I scripted any previously scripted cards, but for the most part the set is unscripted.
+A Wretched Hive is now available. The following cards have untested scripts:
+General Vanden Willard
+Alderaainian Survivor
+Peaceful Resistance (must target Enhancement prior to playing)
+Preparation and Planning
+The Last Warrior (Added script that should approximate Influence mechanic to this and 
+Explosives Artist, haven't tested it; also draw text is scripted)
+Zeb Orrelios (targeted strike text, not bonus unit damage text)
+Freelance Slicer (if it's an enhancement that goes on something, you're going to have to 
+put it back in hand and replay it targeted on the card you want enhanced and skip cost)
+Bo-Rifle
+Improvised Defenses
+Well Equipped (honor system for targeting enhanced unit or objective as checking enhanced 
+status is not currently scripted)
+The Emperor's Cabal
+Imperial Senate Guard
+Cruel Procedures
+Academy Engineer
+Squad Leader (attaching, not Elite)
+T-7 Ion Disruptor
+Coerced
+
 
 Come join us on the SW:LCG Discord Server. You can text chat with other players as well as
 use the voice channels to interact with your OCTGN opponents.

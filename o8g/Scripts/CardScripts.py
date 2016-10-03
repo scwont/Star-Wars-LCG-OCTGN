@@ -11169,7 +11169,7 @@ Explosives Artist
 -----
 ff4fb461-8060-457a-9c16-000000001465
 -----
-onPlay:Retrieve1Card-grabSpecter-onTop10Cards-isReact$$ShuffleDeck
+onPlay:Retrieve1Card-grabSpecter-onTop10Cards-isReact$$ShuffleDeck||onHostGenerate:Put1Ignores Affiliation Match-AutoTargeted-isUnpaid
 +++++
 
 .....
@@ -11208,6 +11208,7 @@ Well Equipped
 -----
 ff4fb461-8060-457a-9c16-000000001470
 -----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
 +++++
 
 .....
@@ -11343,6 +11344,237 @@ onPlay:CaptureTarget-Targeted-atUnit
 Preparation and Planning
 -----
 ff4fb461-8060-457a-9c16-000000001488
+-----
+onResolveFate:SimplyAnnounce{reduce the cost of the next event they play this turn by 2}$$CreateDummy-nonUnique-isSilent-doNotDiscard||whileInPlay:Reduce2CostPlay-affectsEvent-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeEvent-onlyforDummy-isSilent||atTurnEnd:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Resourceful Survivors
+-----
+ff4fb461-8060-457a-9c16-000000001489
+-----
++++++
+R0: SimplyAnnounce{play a [Rebel Alliance] event card from discard, then place out of play}
+
+.....
+General Vanden Willard
+-----
+ff4fb461-8060-457a-9c16-000000001490
+-----
+whileInPlay:Draw1Card-foreachCardPlayed-byMe-typeEvent-isReact-onlyOnce
++++++
+
+.....
+Alderaanian Survivor
+-----
+ff4fb461-8060-457a-9c16-000000001491
+-----
+onPlay:Retrieve1Card-grabEvent-toHand-onTop5Cards-tellPlayer-isReact$$ShuffleDeck
++++++
+
+.....
+Peaceful Resistance
+-----
+ff4fb461-8060-457a-9c16-000000001492
+-----
+onPlay:DestroyTarget-Targeted-atEnhancement
++++++
+
+.....
+A New Hope
+-----
+ff4fb461-8060-457a-9c16-000000001493
+-----
++++++
+
+.....
+Preparation and Planning
+-----
+ff4fb461-8060-457a-9c16-000000001494
+-----
+onResolveFate:SimplyAnnounce{reduce the cost of the next event they play this turn by 2}$$CreateDummy-nonUnique-isSilent-doNotDiscard||whileInPlay:Reduce2CostPlay-affectsEvent-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeEvent-onlyforDummy-isSilent||atTurnEnd:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+The Last Warrior
+-----
+ff4fb461-8060-457a-9c16-000000001495
+-----
+onHostGenerate:Put1Ignores Affiliation Match-AutoTargeted-isUnpaid||whileInPlay:PreventDraw-forOpponent-ifOrigHasMore-typeUnit_and_Specter
++++++
+
+.....
+Zeb Orrelios
+-----
+ff4fb461-8060-457a-9c16-000000001496
+-----
+ConstantAbility:TargetStrike-ifOrigHasMore-typeEnhancement
++++++
+
+.....
+Freelance Slicer
+-----
+ff4fb461-8060-457a-9c16-000000001497
+-----
++++++
+R0:Retrieve1Card-grabEnhancement-toTable-onTop1Cards-tellPlayer-isReact-onlyOnce
+
+.....
+Bo-Rifle
+-----
+ff4fb461-8060-457a-9c16-000000001498
+-----
+Placement:Specter_or_Smugglers and Spies_and_Character||BonusIcons:UD:1, EE-UD:1
++++++
+
+.....
+Improvised Defenses
+-----
+ff4fb461-8060-457a-9c16-000000001499
+-----
+Placement:Objective-targetAllied||onHostLeaving:ReturnMyself-isReact
++++++
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001500
+-----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
+The Emperor's Cabal
+-----
+ff4fb461-8060-457a-9c16-000000001501
+-----
+whileInPlay:Retrieve1Card-grabEvent-fromDiscard-toDeck-foreachForceStruggleDark-isReact$$ShuffleDeck
++++++
+
+.....
+Sim Aloo
+-----
+ff4fb461-8060-457a-9c16-000000001502
+-----
++++++
+
+.....
+Imperial Senate Guard
+-----
+ff4fb461-8060-457a-9c16-000000001503
+-----
+whileInPlay:Put1Shield-AutoTargeted-atUnit_or_Objective_and_Sith-targetMine-choose1-hasntMarker{Shield}-foreachCardPlayed-byMe-typeEvent-isReact-onlyOnce
++++++
+
+.....
+Executive Override
+-----
+ff4fb461-8060-457a-9c16-000000001504
+-----
++++++
+
+.....
+Cruel Procedures
+-----
+ff4fb461-8060-457a-9c16-000000001505
+-----
+onPlay:Remove1Damage-DemiAutoTargeted-atUnit_and_Sith-hasMarker{Damage}-targetMine-isParticipating-choose1-isCost$$Put1Damage-DemiAutoTargeted-atUnit-targetOpponents-isParticipating-choose1
++++++
+
+.....
+Preparation and Planning
+-----
+ff4fb461-8060-457a-9c16-000000001506
+-----
+onResolveFate:SimplyAnnounce{reduce the cost of the next event they play this turn by 2}$$CreateDummy-nonUnique-isSilent-doNotDiscard||whileInPlay:Reduce2CostPlay-affectsEvent-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeEvent-onlyforDummy-isSilent||atTurnEnd:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+Pattern Analysis
+-----
+ff4fb461-8060-457a-9c16-000000001507
+-----
++++++
+
+.....
+Agent Kallus
+-----
+ff4fb461-8060-457a-9c16-000000001508
+-----
++++++
+
+.....
+Academy Engineer
+-----
+ff4fb461-8060-457a-9c16-000000001509
+-----
+onPlay:Retrieve1Card-grabEnhancement-toHand-onTop5Cards-tellPlayer-isReact$$ShuffleDeck
++++++
+
+.....
+Squad Leader
+-----
+ff4fb461-8060-457a-9c16-000000001510
+-----
+Placement:Trooper_or_Character_and_Imperial Navy
++++++
+
+.....
+T-7 Ion Disruptor
+-----
+ff4fb461-8060-457a-9c16-000000001511
+-----
+Placement:Trooper_or_Character_and_Imperial Navy||BonusIcons:UD:1, EE-BD:1
++++++
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001512
+-----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
+I Don't Like You, Either
+-----
+ff4fb461-8060-457a-9c16-000000001513
+-----
++++++
+
+.....
+Dr. Evazan
+-----
+ff4fb461-8060-457a-9c16-000000001514
+-----
++++++
+
+.....
+Ponda Baba
+-----
+ff4fb461-8060-457a-9c16-000000001515
+-----
++++++
+
+.....
+Coerced
+-----
+ff4fb461-8060-457a-9c16-000000001516
+-----
+Placement:Character-targetOpponents||onHostLeaving:CaptureTarget-DemiAutoTargeted-fromDeckOpponents-choose1-isReact
++++++
+
+.....
+Prized Possession
+-----
+ff4fb461-8060-457a-9c16-000000001517
+-----
++++++
+
+.....
+He Doesn't Like You
+-----
+ff4fb461-8060-457a-9c16-000000001518
 -----
 +++++
 

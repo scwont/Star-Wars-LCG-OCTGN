@@ -11579,6 +11579,236 @@ ff4fb461-8060-457a-9c16-000000001518
 +++++
 
 .....
+Daughter of Taanab
+-----
+ff4fb461-8060-457a-9c16-000000001519
+-----
+whileInPlay:Draw1Card-foreachCardPlayed-byMe-typeEvent-ifOrigmarkers{Damage}le2-onlyOnce-isReact
++++++
+
+.....
+Sarenda
+-----
+ff4fb461-8060-457a-9c16-000000001520
+-----
+onLeavePlay:Retrieve1Card-grabEvent-toHand-tellPlayer-isReact$$ShuffleDeck
++++++
+
+.....
+Cathar Defender
+-----
+ff4fb461-8060-457a-9c16-000000001521
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough||ExtraIcon:UD:1-ifOrigDefending
++++++
+
+.....
+Gotal Outcast
+-----
+ff4fb461-8060-457a-9c16-000000001522
+-----
+ExtraIcon:BD:2-ifHaveForce
++++++
+
+.....
+Return of the Jedi
+-----
+ff4fb461-8060-457a-9c16-000000001523
+-----
+onPlay:CustomScript
++++++
+
+.....
+Preparation and Planning
+-----
+ff4fb461-8060-457a-9c16-000000001524
+-----
+onResolveFate:SimplyAnnounce{reduce the cost of the next event they play this turn by 2}$$CreateDummy-nonUnique-isSilent-doNotDiscard||whileInPlay:Reduce2CostPlay-affectsEvent-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeEvent-onlyforDummy-isSilent||atTurnEnd:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+A Legend Begins
+-----
+ff4fb461-8060-457a-9c16-000000001525
+-----
++++++
+R0:DisengageTarget-DemiAutoTargeted-atUnit-isParticipating-choose1
+
+.....
+Wedge Antilles
+-----
+ff4fb461-8060-457a-9c16-000000001526
+-----
+onPlay:CustomScript||BonusIcons:UD:1, BD:1-ifHostSpeeder_or_Fighter
++++++
+
+.....
+Red Two
+-----
+ff4fb461-8060-457a-9c16-000000001527
+-----
+whileInPlay:Transfer1Focus-Targeted-atEnhancement-sourceEnhancement-hasMarker{Focus}-destinationEnhancement-foreachCardPlayed-byMe-typeEnhancement_and_Pilot-ifHostRed Two-isReact-onlyOnce
++++++
+
+.....
+Pilot Ready Room
+-----
+ff4fb461-8060-457a-9c16-000000001528
+-----
+whileInPlay:Reduce1CostPlay-affectsPilot-onlyOnce-forMe
++++++
+
+.....
+Tactical Planning
+-----
+ff4fb461-8060-457a-9c16-000000001529
+-----
++++++
+
+.....
+Tactical Planning
+-----
+ff4fb461-8060-457a-9c16-000000001529
+-----
++++++
+
+.....
+Resistance and Rebellion
+-----
+ff4fb461-8060-457a-9c16-000000001531
+-----
++++++
+
+.....
+Nien Numb
+-----
+ff4fb461-8060-457a-9c16-000000001532
+-----
+onPlay:CustomScript||BonusIcons:UD:1, EE-T:1-ifHostTransport
++++++
+
+.....
+Loyal Co-Pilot
+-----
+ff4fb461-8060-457a-9c16-000000001533
+-----
+onPlay:CustomScript||onHostParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough-ifHostTransport
++++++
+
+.....
+YT-2000 Freighter
+-----
+ff4fb461-8060-457a-9c16-000000001534
+-----
++++++
+
+.....
+Spacer Cantina
+-----
+ff4fb461-8060-457a-9c16-000000001535
+-----
+whileInPlay:Reduce1CostPlay-affectsPilot-onlyOnce-forMe
++++++
+
+.....
+Stay on Target
+-----
+ff4fb461-8060-457a-9c16-000000001536
+-----
++++++
+
+.....
+Inexorable Destruction
+-----
+ff4fb461-8060-457a-9c16-000000001537
+-----
++++++
+
+.....
+Admiral Screed
+-----
+ff4fb461-8060-457a-9c16-000000001538
+-----
+onPlay:CustomScript||onPay:Reduce1CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce1
++++++
+
+.....
+Demolisher
+-----
+ff4fb461-8060-457a-9c16-000000001539
+-----
++++++
+
+.....
+Nebulon-B2 Frigate
+-----
+ff4fb461-8060-457a-9c16-000000001540
+-----
++++++
+
+.....
+Tactical Planning
+-----
+ff4fb461-8060-457a-9c16-000000001541
+-----
++++++
+
+.....
+Tactical Planning
+-----
+ff4fb461-8060-457a-9c16-000000001542
+-----
++++++
+
+.....
+Hunter in the Night
+-----
+ff4fb461-8060-457a-9c16-000000001543
+-----
++++++
+
+.....
+Djas Puhr
+-----
+ff4fb461-8060-457a-9c16-000000001544
+-----
+ConstantAbility:TargetStrike-ifOrigHasProperty{Night}ge2
++++++
+
+.....
+Defel Mercenary
+-----
+ff4fb461-8060-457a-9c16-000000001545
+-----
+ExtraIcon:UD:1-perEveryNight
++++++
+
+.....
+Master of the Night
+-----
+ff4fb461-8060-457a-9c16-000000001546
+-----
+Placement:Unit_or_Objective_or_Enhancement-targetMine
++++++
+R0:SendToBottomMyself$$SimplyAnnounce{cancel the card effect}$$ShuffleDeck
+
+.....
+Blaster Pistol
+-----
+ff4fb461-8060-457a-9c16-000000001547
+-----
+Placement:Character_and_Unit||BonusIcons:UD:1
++++++
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001548
+-----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
 ENDSCRIPTS
 =====
 '''

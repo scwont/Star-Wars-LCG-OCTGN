@@ -226,7 +226,7 @@
 			<property name="AutoScript" value="" />
 			<property name="AutoAction" value="" />
 		</card>
-		<card id="ff4fb461-8060-457a-9c16-000000001529" name="Tactical Planning">
+		<card id="ff4fb461-8060-457a-9c16-000000001530" name="Tactical Planning">
 			<property name="Cost" value="0" />
 			<property name="Type" value="Fate" />
 			<property name="Force" value="3" />

@@ -1,5 +1,13 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.30.0.x
+
+Scrap Metal has been added
+
+### 2.30.0.x
+
+Meditation & Mastery has been added
+
 ### 2.29.0.x
 
 A Wretched Hive has been added

@@ -11224,7 +11224,7 @@ Han Solo
 -----
 ff4fb461-8060-457a-9c16-000000001472
 -----
-whileInPlay:IncreaseUD:1-forMe-typeUnit_and_Smugglers and Spies_and_notHan Solo
+whileInPlay:IncreaseUD:1-forMe-typeUnit_and_Smugglers and Spies_and_typenotHan Solo
 +++++
 
 .....
@@ -11661,7 +11661,7 @@ whileInPlay:Reduce1CostPlay-affectsPilot-onlyOnce-forMe
 .....
 Tactical Planning
 -----
-ff4fb461-8060-457a-9c16-000000001529
+ff4fb461-8060-457a-9c16-000000001530
 -----
 +++++
 
@@ -11806,6 +11806,234 @@ Well Equipped
 ff4fb461-8060-457a-9c16-000000001548
 -----
 onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
+Hero of a Thousand Devices
+-----
+ff4fb461-8060-457a-9c16-000000001549
+-----
++++++
+
+.....
+R2-D2
+-----
+ff4fb461-8060-457a-9c16-000000001550
+-----
+
++++++
+
+.....
+C-3PO
+-----
+ff4fb461-8060-457a-9c16-000000001551
+-----
+onPlay:DestroyTarget-Targeted-atEnhancement-hasProperty{Cost}le2-choose1-isReact
++++++
+
+.....
+2-1B Surgical Droid
+-----
+ff4fb461-8060-457a-9c16-000000001552
+-----
++++++
+R0:Remove1Damage-Targeted-atUnit_and_typenotVehicle-choose1-onlyOnce
+
+.....
+Grappling Arm
+-----
+ff4fb461-8060-457a-9c16-000000001553
+-----
++++++
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001554
+-----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
+Sacrifice of Heroes
+-----
+ff4fb461-8060-457a-9c16-000000001555
+-----
+whileInPlay:Draw1Card-foreachCardLeavingPlay-typeUnit-byFriendlyOriginController-isReact
++++++
+
+.....
+Jek Porkins
+-----
+ff4fb461-8060-457a-9c16-000000001556
+-----
+onPlay:CustomScript||onPay:Reduce1CostPlay-perEveryVehicle-Targeted-noTargetingError-maxReduce1||onHostLeaving:BringToPlayTarget-Targeted-atUnit_and_Rebel Alliance-choose1-ifHostFighter-isReact
++++++
+
+.....
+Red Six
+-----
+ff4fb461-8060-457a-9c16-000000001557
+-----
++++++
+R0:Remove1Damage-DemiAutoTargeted-atVehicle-hasMarker{Damage}-choose1-isCost$$Put1Damage
+
+.....
+R5-D8
+-----
+ff4fb461-8060-457a-9c16-000000001558
+-----
++++++
+
+.....
+I've Got a Problem Here
+-----
+ff4fb461-8060-457a-9c16-000000001559
+-----
+onPlay:
++++++
+
+.....
+Protection
+-----
+ff4fb461-8060-457a-9c16-000000001560
+-----
+onResolveFate:Put1Shield-Targeted-atUnit_or_Objective
++++++
+
+.....
+Threat from the Depths
+-----
+ff4fb461-8060-457a-9c16-000000001561
+-----
++++++
+
+.....
+Dragonsnake
+-----
+ff4fb461-8060-457a-9c16-000000001562
+-----
++++++
+
+.....
+Dragonsnake
+-----
+ff4fb461-8060-457a-9c16-000000001563
+-----
++++++
+
+.....
+Endless Hunger
+-----
+ff4fb461-8060-457a-9c16-000000001564
+-----
++++++
+
+.....
+Bestial Fury
+-----
+ff4fb461-8060-457a-9c16-000000001565
+-----
++++++
+
+.....
+Feeding Frenzy
+-----
+ff4fb461-8060-457a-9c16-000000001566
+-----
++++++
+
+.....
+Imperial Vengeance
+-----
+ff4fb461-8060-457a-9c16-000000001567
+-----
+whileInPlay:Deal2Damage-DemiAutoTargeted-atUnit-targetOpponents-choose1-foreachObjectiveThwarted-byFriendlyOriginController-isReact
++++++
+
+.....
+Avenger
+-----
+ff4fb461-8060-457a-9c16-000000001568
+-----
+whileInPlay:Deal1Damage-DemiAutoTargeted-atUnit-targetOpponents-choose1-foreachCardLeavingPlay-typeUnit-byFriendlyOriginController-onlyDuringEngagement-isReact
++++++
+
+.....
+Alpha-class Star Wing
+-----
+ff4fb461-8060-457a-9c16-000000001569
+-----
++++++
+
+.....
+We Have Them
+-----
+ff4fb461-8060-457a-9c16-000000001570
+-----
++++++
+
+.....
+Apology Accepted
+-----
+ff4fb461-8060-457a-9c16-000000001571
+-----
+onPlay:SacrificeTarget-Targeted-atUnit_and_Imperial Navy_and_Officer$$Remove999Focus-Targeted-atUnit_and_Imperial Navy_and_Vehicle
++++++
+
+.....
+Preparation and Planning
+-----
+ff4fb461-8060-457a-9c16-000000001572
+-----
+onResolveFate:SimplyAnnounce{reduce the cost of the next event they play this turn by 2}$$CreateDummy-nonUnique-isSilent-doNotDiscard||whileInPlay:Reduce2CostPlay-affectsEvent-onlyforDummy||whileInPlay:DestroyMyself-foreachCardPlayed-typeEvent-onlyforDummy-isSilent||atTurnEnd:DestroyMyself-onlyforDummy-isSilent
++++++
+
+.....
+His High Exaltedness
+-----
+ff4fb461-8060-457a-9c16-000000001573
+-----
+whileInPlay:Retrieve1Card-grabEvent_and_Scum and Villainy-fromDiscard-foreachObjectiveThwarted-isReact
++++++
+
+.....
+Jabba the Hutt
+-----
+ff4fb461-8060-457a-9c16-000000001574
+-----
+whileInPlay:Reduce2CostPlay-affectsBounty Hunter_or_Event_and_Scum and Villainy-onlyOnce-forMe
++++++
+
+.....
+Twi'lek Sycophant
+-----
+ff4fb461-8060-457a-9c16-000000001575
+-----
+onPlay:Retrieve1Card-grabEvent-toHand-onTop5Cards-tellPlayer-isReact$$ShuffleDeck
++++++
+
+.....
+Freelance Hunter
+-----
+ff4fb461-8060-457a-9c16-000000001576
+-----
++++++
+
+.....
+Death Mark
+-----
+ff4fb461-8060-457a-9c16-000000001577
+-----
+Placement:Character_or_Droid-targetOpponents
++++++
+
+.....
+Hutt's Hospitality
+-----
+ff4fb461-8060-457a-9c16-000000001578
+-----
+onPlay:DestroyTarget-Targeted-atCharacter_or_Droid-hasProperty{Cost}le2-choose1
 +++++
 
 .....

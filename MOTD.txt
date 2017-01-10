@@ -1,18 +1,6 @@
 =====Message of the Day======
 
-Meditation and Mastery is now available. Previously scripted cards are scripted. The following cards have untested scripts:
-Daughter of Taanab
-Sarenda
-Cathar Defender
-A Legend Begins (doesn't trigger off Fate, must manually trigger but should disengage)
-Wedge Antilles (should attach, should provide bonus icons, transfer action is unscripted)
-Red Two
-Nien Nunb (should attach, should provide bonus icons)
-Loyal Co-Pilot (should attach, should provide shielding)
-Admiral Screed (should attach, interrupt is unscripted)
-Djas Puhr (attempted to script Targeted Strike text, elite text not scripted)
-Defel Mercenary
-Master of the Night (just announces cancellation)
+Scrap Metal is now available.
 
 
 Come join us on the SW:LCG Discord Server. You can text chat with other players as well as

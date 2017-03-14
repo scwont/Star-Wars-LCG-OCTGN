@@ -822,6 +822,34 @@ def CustomScript(card, action = 'PLAY'): # Scripts that are complex and fairly u
             card.sendToBack()
             TokensX('Put1isEnhancement-isSilent', '', card)
             notify("{} climbs into {}".format(card,vehicle[0]))
+   elif card.model == 'ff4fb461-8060-457a-9c16-000000001604': # Howlrunner B255/2
+      if action == 'PLAY': # In this scenario, Howlrunner is attaching to a vehicle the player had targeted before they played him.
+         vehicle = findTarget('Targeted-atVehicle-targetAllied-noTargetingError')
+         if len(vehicle) > 0: #If the player has targeted a Vehicle we assume they wanted to put Howlrunner in it.
+            hostCards = eval(getGlobalVariable('Host Cards'))
+            hostCards[card._id] = vehicle[0]._id
+            setGlobalVariable('Host Cards',str(hostCards))
+            cardAttachementsNR = len([att_id for att_id in hostCards if hostCards[att_id] == vehicle[0]._id])
+            debugNotify("About to move into position") #Debug
+            x,y = vehicle[0].position
+            card.moveToTable(x, y - ((cwidth(card) / 4 * playerside) * cardAttachementsNR))
+            card.sendToBack()
+            TokensX('Put1isEnhancement-isSilent', '', card)
+            notify("{} climbs into {}".format(card,vehicle[0]))
+   elif card.model == 'ff4fb461-8060-457a-9c16-000000001605': # Night Beast B255/3
+      if action == 'PLAY': # In this scenario, Night Beast is attaching to a vehicle the player had targeted before they played him.
+         vehicle = findTarget('Targeted-atVehicle-targetAllied-noTargetingError')
+         if len(vehicle) > 0: #If the player has targeted a Vehicle we assume they wanted to put Night Beast in it.
+            hostCards = eval(getGlobalVariable('Host Cards'))
+            hostCards[card._id] = vehicle[0]._id
+            setGlobalVariable('Host Cards',str(hostCards))
+            cardAttachementsNR = len([att_id for att_id in hostCards if hostCards[att_id] == vehicle[0]._id])
+            debugNotify("About to move into position") #Debug
+            x,y = vehicle[0].position
+            card.moveToTable(x, y - ((cwidth(card) / 4 * playerside) * cardAttachementsNR))
+            card.sendToBack()
+            TokensX('Put1isEnhancement-isSilent', '', card)
+            notify("{} climbs into {}".format(card,vehicle[0]))			
    elif card.model == 'ff4fb461-8060-457a-9c16-000000001556': # Jek Porkins B247/2
       if action == 'PLAY': # In this scenario, Jek is attaching to a vehicle the player had targeted before they played him.
          vehicle = findTarget('Targeted-atVehicle-targetAllied-noTargetingError')

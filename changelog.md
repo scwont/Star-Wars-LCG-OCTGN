@@ -1,6 +1,10 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
-### 2.30.0.x
+### 2.32.0.x
+
+Power of the Force has been added
+
+### 2.31.0.x
 
 Scrap Metal has been added
 

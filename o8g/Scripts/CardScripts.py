@@ -6348,7 +6348,7 @@ ExtraIcon:UD:1-perEveryObjective-AutoTargeted-atObjective_and_Jedi-div3
 +++++
 
 .....
-Yoda';s Hut
+Yoda's Hut
 -----
 ff4fb461-8060-457a-9c16-000000000826
 -----
@@ -9289,7 +9289,7 @@ Tydirium
 -----
 ff4fb461-8060-457a-9c16-000000001202
 -----
-ConstantEffect:Edge1Bonus-perEveryCard-AutoTargeted-isParticipating-targetOpponents||onLeavePlay:Lose1Dial-isReact
+ConstantEffect:Edge1Bonus-perEveryCard-AutoTargeted-isParticipating-targetOpponents||onLeaving:Lose1Dial-isReact
 +++++
 
 .....
@@ -9449,7 +9449,7 @@ Storm Commando
 -----
 ff4fb461-8060-457a-9c16-000000001222
 -----
-onPlay:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact||onLeavePlay:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact
+onPlay:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact||onLeaving:Discard1Card-AutoTargeted-fromTopDeckOpponents-ofAllOpponents-isReact
 +++++
 
 .....
@@ -11591,7 +11591,7 @@ Sarenda
 -----
 ff4fb461-8060-457a-9c16-000000001520
 -----
-onLeavePlay:Retrieve1Card-grabEvent-toHand-tellPlayer-isReact$$ShuffleDeck
+onLeaving:Retrieve1Card-grabEvent-toHand-tellPlayer-isReact$$ShuffleDeck
 +++++
 
 .....
@@ -12034,6 +12034,228 @@ Hutt's Hospitality
 ff4fb461-8060-457a-9c16-000000001578
 -----
 onPlay:DestroyTarget-Targeted-atCharacter_or_Droid-hasProperty{Cost}le2-choose1
++++++
+
+.....
+Stand Together
+-----
+ff4fb461-8060-457a-9c16-000000001579
+-----
+ConstantEffect:Force2Bonus-ifOrigHasProperty{Specter_and_Unit}ge2
++++++
+
+.....
+Ezra Bridger
+-----
+ff4fb461-8060-457a-9c16-000000001580
+-----
+onStrike:SimplyAnnounce{Opponent must choose to either place 1 focus token on one of his participating units or discard 2 cards at random from his hand.}
++++++
+
+.....
+Loth-cat
+-----
+ff4fb461-8060-457a-9c16-000000001581
+-----
++++++
+
+.....
+Stolen Helmet
+-----
+ff4fb461-8060-457a-9c16-000000001582
+-----
+Placement:Character_or_Specter
++++++
+
+.....
+Improvised Demolition
+-----
+ff4fb461-8060-457a-9c16-000000001583
+-----
++++++
+
+.....
+Specter's Concentration
+-----
+ff4fb461-8060-457a-9c16-000000001584
+-----
++++++
+
+.....
+Haunting the Empire
+-----
+ff4fb461-8060-457a-9c16-000000001585
+-----
++++++
+
+.....
+Hera Syndulla
+-----
+ff4fb461-8060-457a-9c16-000000001586
+-----
+ConstantEffect:IncreaseUD:1-forAlly-typeUnit_and_Specter_or_Neutral_and_Unit||afterRefresh:Remove1Focus-DemiAutoTargeted-atSpecter-hasMarker{Focus}-targetAllied-choose1-duringMyTurn-isReact-onlyOnce
++++++
+
+.....
+Ghost
+-----
+ff4fb461-8060-457a-9c16-000000001587
+-----
++++++
+R0:Remove1Damage-DemiAutoTargeted-atSpecter-hasMarker{Damage}-choose1-isCost$$Put1Damage
+
+.....
+Phantom
+-----
+ff4fb461-8060-457a-9c16-000000001588
+-----
++++++
+
+.....
+Hidden Outpost
+-----
+ff4fb461-8060-457a-9c16-000000001589
+-----
++++++
+
+.....
+Call to Action
+-----
+ff4fb461-8060-457a-9c16-000000001590
+-----
++++++
+
+.....
+On the Run
+-----
+ff4fb461-8060-457a-9c16-000000001591
+-----
++++++
+
+.....
+BoShek
+-----
+ff4fb461-8060-457a-9c16-000000001592
+-----
++++++
+
+.....
+R4-E1
+-----
+ff4fb461-8060-457a-9c16-000000001593
+-----
++++++
+
+.....
+Make Your Own Resources
+-----
+ff4fb461-8060-457a-9c16-000000001594
+-----
++++++
+
+.....
+Tricks and Nonsense
+-----
+ff4fb461-8060-457a-9c16-000000001595
+-----
++++++
+
+.....
+Tricks and Nonsense
+-----
+ff4fb461-8060-457a-9c16-000000001596
+-----
++++++
+
+.....
+Lure of the Lost
+-----
+ff4fb461-8060-457a-9c16-000000001597
+-----
+afterCardRefreshing:Put1Focus-isCost-isReact$$Retrieve1Card-fromDiscard-toDeck$$ShuffleDeck
++++++
+
+.....
+Rav Naaran
+-----
+ff4fb461-8060-457a-9c16-000000001598
+-----
++++++
+
+.....
+Berserk Hunter
+-----
+ff4fb461-8060-457a-9c16-000000001599
+-----
+afterStrike:SacrificeMyself-isReact-isForced
++++++
+
+.....
+Berserk Hunter
+-----
+ff4fb461-8060-457a-9c16-000000001600
+-----
+afterStrike:SacrificeMyself-isReact-isForced
++++++
+
+.....
+Naaran's Lightsaber
+-----
+ff4fb461-8060-457a-9c16-000000001601
+-----
+Placement:Force User_or_Force Sensitive||ConstantEffect:Edge1Bonus-ifOrigParticipatingHost
++++++
+
+.....
+Twist of Fate
+-----
+ff4fb461-8060-457a-9c16-000000001602
+-----
+onResolveFate:CustomScript
++++++
+
+.....
+Cloud Cover
+-----
+ff4fb461-8060-457a-9c16-000000001603
+-----
++++++
+
+.....
+Howlrunner
+-----
+ff4fb461-8060-457a-9c16-000000001604
+-----
+onPlay:CustomScript||ConstantEffect:IncreaseUD:1-forAlly-typeFighter-ifHostVehicle
++++++
+
+.....
+Night Beast
+-----
+ff4fb461-8060-457a-9c16-000000001605
+-----
+onPlay:CustomScript||onPay:Reduce1CostPlay-perEveryVehicle-Targeted-atVehicle-noTargetingError-maxReduce1||afterEngagement:Remove1Focus-AutoTargeted-onHost-ifHostFighter-ifOrigParticipatingHost-isReact
++++++
+
+.....
+Obsidian Leader
+-----
+ff4fb461-8060-457a-9c16-000000001606
+-----
++++++
+
+.....
+Obsidian 2
+-----
+ff4fb461-8060-457a-9c16-000000001607
+-----
++++++
+
+.....
+Stay on Target
+-----
+ff4fb461-8060-457a-9c16-000000001608
+-----
 +++++
 
 .....

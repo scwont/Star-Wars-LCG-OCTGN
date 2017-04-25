@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.33.0.x
+
+Technological Terror has been added
+
 ### 2.32.0.x
 
 Power of the Force has been added

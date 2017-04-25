@@ -12259,6 +12259,232 @@ ff4fb461-8060-457a-9c16-000000001608
 +++++
 
 .....
+Running the Canyon
+-----
+ff4fb461-8060-457a-9c16-000000001639
+-----
++++++
+
+.....
+Luke's T-16 Skyhopper
+-----
+ff4fb461-8060-457a-9c16-000000001640
+-----
+whileInPlay:Deal1Damage-foreachCardPlayed-byMe-typeEvent-DemiAutoTargeted-atObjective-choose1-targetOpponents-onlyOnce-isReact
++++++
+
+.....
+T-16 Skyhopper
+-----
+ff4fb461-8060-457a-9c16-000000001641
+-----
++++++
+
+.....
+Memories of Home
+-----
+ff4fb461-8060-457a-9c16-000000001642
+-----
+onPlay:Put1Shield-DemiAutoTargeted-atUnit-choose1-targetAllied
++++++
+
+.....
+Bull's-eye!
+-----
+ff4fb461-8060-457a-9c16-000000001643
+-----
++++++
+
+.....
+Target of Opportunity
+-----
+ff4fb461-8060-457a-9c16-000000001644
+-----
+onResolveFate:Deal1Damage-AutoTargeted-atObjective-isParticipating-ifOrigAttacking
++++++
+
+.....
+Tiny Robotic Sociopath
+-----
+ff4fb461-8060-457a-9c16-000000001645
+-----
++++++
+
+.....
+Chopper
+-----
+ff4fb461-8060-457a-9c16-000000001646
+-----
++++++
+
+.....
+Captured Courier Droid
+-----
+ff4fb461-8060-457a-9c16-000000001647
+-----
+onPlay:SimplyAnnounce{Opponent must choose and discard 1 card from hand}-isReact
++++++
+
+.....
+Electroshock Prod
+-----
+ff4fb461-8060-457a-9c16-000000001648
+-----
+Placement:Specter_or_Droid
++++++
+
+.....
+Makeshift Repairs
+-----
+ff4fb461-8060-457a-9c16-000000001649
+-----
++++++
+
+.....
+Improvised Tactics
+-----
+ff4fb461-8060-457a-9c16-000000001650
+-----
++++++
+
+.....
+The Emperor's Shadow
+-----
+ff4fb461-8060-457a-9c16-000000001651
+-----
+whileInPlay:Draw1Card-foreachCardPlayed-byMe-typeEnhancement-onlyOnce-isReact
++++++
+
+.....
+The Emperor's Shuttle
+-----
+ff4fb461-8060-457a-9c16-000000001652
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
++++++
+
+.....
+Shuttle Pilot
+-----
+ff4fb461-8060-457a-9c16-000000001653
+-----
+onPlay:CustomScript||ConstantEffect:Edge1Bonus-ifOrigParticipatingHost
++++++
+
+.....
+The Emperor's Favor
+-----
+ff4fb461-8060-457a-9c16-000000001654
+-----
+Placement:Sith_and_Unit||BonusIcons:UD:1
++++++
+
+.....
+Sensor Array
+-----
+ff4fb461-8060-457a-9c16-000000001655
+-----
++++++
+
+.....
+Well Equipped
+-----
+ff4fb461-8060-457a-9c16-000000001656
+-----
+onResolveFate:Remove1Focus-Targeted-atUnit_or_Objective
++++++
+
+.....
+Technological Terror
+-----
+ff4fb461-8060-457a-9c16-000000001657
+-----
++++++
+
+.....
+Death Star
+-----
+ff4fb461-8060-457a-9c16-000000001658
+-----
+onParticipation:Put1Shield-AutoTargeted-atUnit_or_Objective-isParticipating-targetMine-choose1-hasntMarker{Shield}-notHARDCOREenough
++++++
+
+.....
+Fleet Navigator
+-----
+ff4fb461-8060-457a-9c16-000000001659
+-----
++++++
+
+.....
+Death Star Engineer
+-----
+ff4fb461-8060-457a-9c16-000000001660
+-----
++++++
+R0:SacrificeMyself$$Remove1Focus-DemiAutoTargeted-atSpace Station_or_Capital Ship
+
+.....
+Death Star Engineer
+-----
+ff4fb461-8060-457a-9c16-000000001661
+-----
++++++
+R0:SacrificeMyself$$Remove1Focus-DemiAutoTargeted-atSpace Station_or_Capital Ship
+
+.....
+Control Room
+-----
+ff4fb461-8060-457a-9c16-000000001662
+-----
++++++
+
+.....
+Heart of Cold
+-----
+ff4fb461-8060-457a-9c16-000000001663
+-----
++++++
+
+.....
+IG-88C
+-----
+ff4fb461-8060-457a-9c16-000000001664
+-----
++++++
+
+.....
+FEX-model Combat Droid
+-----
+ff4fb461-8060-457a-9c16-000000001665
+-----
++++++
+
+.....
+Ugnaught
+-----
+ff4fb461-8060-457a-9c16-000000001666
+-----
+whileInPlay:Remove1Damage-DemiAutoTargeted-atUnit_and_Vehicle_or_Unit_and_Droid-targetMine-choose1-hasMarker{Damage}-foreachCardCaptured-isReact
++++++
+
+.....
+Tricks and Nonsense
+-----
+ff4fb461-8060-457a-9c16-000000001667
+-----
++++++
+
+.....
+Tricks and Nonsense
+-----
+ff4fb461-8060-457a-9c16-000000001668
+-----
++++++
+
+
+
+.....
 ENDSCRIPTS
 =====
 '''

@@ -5,7 +5,7 @@
      gameVersion="2.0.0.0"
      version="2.0.0.0">
    <cards>
-      <card id="ff4fb461-8060-457a-9c16-000000001699" name="Guardians of Justice">
+      <card id="ff4fb461-8060-457a-9c16-000000001669" name="Guardians of Justice">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>

@@ -5,7 +5,7 @@
      gameVersion="2.0.0.0"
      version="2.0.0.0">
    <cards>
-      <card id="ff4fb461-8060-457a-9c16-000000001639" name="Guardians of Justice">
+      <card id="ff4fb461-8060-457a-9c16-000000001699" name="Guardians of Justice">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -26,7 +26,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001640" name="No Questions Asked">
+      <card id="ff4fb461-8060-457a-9c16-000000001670" name="No Questions Asked">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -47,7 +47,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001641" name="Fighters for Freedom">
+      <card id="ff4fb461-8060-457a-9c16-000000001671" name="Fighters for Freedom">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -68,7 +68,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001642" name="Information Network">
+      <card id="ff4fb461-8060-457a-9c16-000000001672" name="Information Network">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -89,7 +89,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001643" name="Desperate Allies">
+      <card id="ff4fb461-8060-457a-9c16-000000001673" name="Desperate Allies">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -110,7 +110,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001644" name="Mercenary Contacts">
+      <card id="ff4fb461-8060-457a-9c16-000000001674" name="Mercenary Contacts">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -131,7 +131,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001645" name="Galactic Enforcers">
+      <card id="ff4fb461-8060-457a-9c16-000000001675" name="Galactic Enforcers">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -152,7 +152,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001646" name="Expendable Allies">
+      <card id="ff4fb461-8060-457a-9c16-000000001676" name="Expendable Allies">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -173,7 +173,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001647" name="Dark Masters">
+      <card id="ff4fb461-8060-457a-9c16-000000001677" name="Dark Masters">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -194,7 +194,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001648" name="Any Methods Necessary">
+      <card id="ff4fb461-8060-457a-9c16-000000001678" name="Any Methods Necessary">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -215,7 +215,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001649" name="Promise of Power">
+      <card id="ff4fb461-8060-457a-9c16-000000001679" name="Promise of Power">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -236,7 +236,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001650" name="Imperial Contractors">
+      <card id="ff4fb461-8060-457a-9c16-000000001680" name="Imperial Contractors">
          <property name="Cost" value="0"/>
          <property name="Type" value="Affiliation"/>
          <property name="Force" value="0"/>
@@ -257,7 +257,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001651" name="Pushing Back the Empire"
+      <card id="ff4fb461-8060-457a-9c16-000000001681" name="Pushing Back the Empire"
             size="ObjectiveSize">
          <property name="Cost" value="0"/>
          <property name="Type" value="Objective"/>
@@ -279,7 +279,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001652" name="Captain Cassian Andor">
+      <card id="ff4fb461-8060-457a-9c16-000000001682" name="Captain Cassian Andor">
          <property name="Cost" value="4"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="3"/>
@@ -300,7 +300,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001653" name="Rebel Saboteur">
+      <card id="ff4fb461-8060-457a-9c16-000000001683" name="Rebel Saboteur">
          <property name="Cost" value="2"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="1"/>
@@ -321,7 +321,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001654" name="Rebel Saboteur">
+      <card id="ff4fb461-8060-457a-9c16-000000001684" name="Rebel Saboteur">
          <property name="Cost" value="2"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="1"/>
@@ -342,7 +342,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001655" name="Teamwork">
+      <card id="ff4fb461-8060-457a-9c16-000000001685" name="Teamwork">
          <property name="Cost" value="1"/>
          <property name="Type" value="Event"/>
          <property name="Force" value="1"/>
@@ -363,7 +363,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001656" name="Allies of Necessity">
+      <card id="ff4fb461-8060-457a-9c16-000000001686" name="Allies of Necessity">
          <property name="Cost" value="0"/>
          <property name="Type" value="Fate"/>
          <property name="Force" value="2"/>
@@ -384,7 +384,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001657" name="Spirit of Rebellion"
+      <card id="ff4fb461-8060-457a-9c16-000000001687" name="Spirit of Rebellion"
             size="ObjectiveSize">
          <property name="Cost" value="0"/>
          <property name="Type" value="Objective"/>
@@ -406,7 +406,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001658" name="Jyn Erso">
+      <card id="ff4fb461-8060-457a-9c16-000000001688" name="Jyn Erso">
          <property name="Cost" value="4"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="3"/>
@@ -427,7 +427,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001659" name="Crafty Smuggler">
+      <card id="ff4fb461-8060-457a-9c16-000000001689" name="Crafty Smuggler">
          <property name="Cost" value="2"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="2"/>
@@ -448,7 +448,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001660" name="Necessary Alliances">
+      <card id="ff4fb461-8060-457a-9c16-000000001690" name="Necessary Alliances">
          <property name="Cost" value="2"/>
          <property name="Type" value="Enhancement"/>
          <property name="Force" value="1"/>
@@ -468,7 +468,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001661" name="Well-Laid Ambush">
+      <card id="ff4fb461-8060-457a-9c16-000000001691" name="Well-Laid Ambush">
          <property name="Cost" value="1"/>
          <property name="Type" value="Event"/>
          <property name="Force" value="2"/>
@@ -489,7 +489,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001662" name="Allies of Necessity">
+      <card id="ff4fb461-8060-457a-9c16-000000001692" name="Allies of Necessity">
          <property name="Cost" value="0"/>
          <property name="Type" value="Fate"/>
          <property name="Force" value="2"/>
@@ -510,7 +510,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001663" name="Rogue Archaeology"
+      <card id="ff4fb461-8060-457a-9c16-000000001693" name="Rogue Archaeology"
             size="ObjectiveSize">
          <property name="Cost" value="0"/>
          <property name="Type" value="Objective"/>
@@ -532,7 +532,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001664" name="Doctor Aphra">
+      <card id="ff4fb461-8060-457a-9c16-000000001694" name="Doctor Aphra">
          <property name="Cost" value="4"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="2"/>
@@ -553,7 +553,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001665" name="BX-series Droid Commando">
+      <card id="ff4fb461-8060-457a-9c16-000000001695" name="BX-series Droid Commando">
          <property name="Cost" value="1"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="1"/>
@@ -574,7 +574,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001666" name="Secret Information">
+      <card id="ff4fb461-8060-457a-9c16-000000001696" name="Secret Information">
          <property name="Cost" value="2"/>
          <property name="Type" value="Enhancement"/>
          <property name="Force" value="1"/>
@@ -594,7 +594,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001667" name="Reconstruction">
+      <card id="ff4fb461-8060-457a-9c16-000000001697" name="Reconstruction">
          <property name="Cost" value="1"/>
          <property name="Type" value="Event"/>
          <property name="Force" value="2"/>
@@ -615,7 +615,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001668" name="Allies of Necessity">
+      <card id="ff4fb461-8060-457a-9c16-000000001698" name="Allies of Necessity">
          <property name="Cost" value="0"/>
          <property name="Type" value="Fate"/>
          <property name="Force" value="2"/>
@@ -636,7 +636,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001669" name="Immeasurable Power"
+      <card id="ff4fb461-8060-457a-9c16-000000001699" name="Immeasurable Power"
             size="ObjectiveSize">
          <property name="Cost" value="0"/>
          <property name="Type" value="Objective"/>
@@ -658,7 +658,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001670" name="Director Krennic">
+      <card id="ff4fb461-8060-457a-9c16-000000001700" name="Director Krennic">
          <property name="Cost" value="4"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="3"/>
@@ -679,7 +679,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001671" name="Death Trooper">
+      <card id="ff4fb461-8060-457a-9c16-000000001701" name="Death Trooper">
          <property name="Cost" value="3"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="2"/>
@@ -699,7 +699,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001672" name="Death Trooper">
+      <card id="ff4fb461-8060-457a-9c16-000000001702" name="Death Trooper">
          <property name="Cost" value="3"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="2"/>
@@ -719,7 +719,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001673" name="Death Trooper">
+      <card id="ff4fb461-8060-457a-9c16-000000001703" name="Death Trooper">
          <property name="Cost" value="3"/>
          <property name="Type" value="Unit"/>
          <property name="Force" value="2"/>
@@ -739,7 +739,7 @@
          <property name="AutoScript" value=""/>
          <property name="AutoAction" value=""/>
       </card>
-      <card id="ff4fb461-8060-457a-9c16-000000001674" name="Assembly Area">
+      <card id="ff4fb461-8060-457a-9c16-000000001704" name="Assembly Area">
          <property name="Cost" value="2"/>
          <property name="Type" value="Enhancement"/>
          <property name="Force" value="0"/>

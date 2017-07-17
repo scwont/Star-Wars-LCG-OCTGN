@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.34.0.x
+
+Allies of Necessity has been added
+
 ### 2.33.0.x
 
 Technological Terror has been added

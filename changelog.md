@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.35.0.x
+
+Aggressive Negotiations has been added
+
 ### 2.34.0.x
 
 Allies of Necessity has been added

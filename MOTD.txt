@@ -1,6 +1,6 @@
 =====Message of the Day======
 
-Aggressive Negotiations is now available. The set is unscripted.
+Desperate Circumstances is now available. The set is unscripted.
 
 
 Come join us on the SW:LCG Discord Server. You can text chat with other players as well as
@@ -9,9 +9,6 @@ https://discordapp.com/invite/0shXbwedwlOcu64k
 
 To report any issues with current scripting, please visit:
 https://github.com/BolivarShagnasty/Star-Wars-LCG-OCTGN/issues
-
-To request cards to be scripted, visit:
-http://www.cardgamedb.com/forums/index.php?/topic/26815-octgn-automation-wishlist
 
 =============================
 

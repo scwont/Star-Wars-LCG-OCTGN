@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.36.0.x
+
+Desperate Circumstances has been added
+
 ### 2.35.0.x
 
 Aggressive Negotiations has been added

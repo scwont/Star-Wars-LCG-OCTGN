@@ -11661,7 +11661,7 @@ whileInPlay:Reduce1CostPlay-affectsPilot-onlyOnce-forMe
 .....
 Tactical Planning
 -----
-ff4fb461-8060-457a-9c16-000000001530
+ff4fb461-8060-457a-9c16-000000001529
 -----
 +++++
 

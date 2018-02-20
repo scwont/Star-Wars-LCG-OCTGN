@@ -1,5 +1,9 @@
 Changelog - Star Wars LCG OCTGN Game Definition
 ===============================================
+### 2.38.0.x
+
+Trust in the Force has been added
+
 ### 2.37.0.x
 
 Swayed by the Dark Side has been added
